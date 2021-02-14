@@ -10,3 +10,6 @@ obj/
 *.pfx
 
 *.user
+
+Misc/BotKey.txt
+Misc/google-services.json
