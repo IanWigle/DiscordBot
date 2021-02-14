@@ -1,0 +1,12 @@
+
+.vs/
+
+bin/
+
+packages/
+
+obj/
+
+*.pfx
+
+*.user

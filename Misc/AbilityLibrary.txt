@@ -1,0 +1,5538 @@
+﻿[
+  {
+      "alignment": 1,
+      "category": 12,
+      "Description": "Artificial Force Push Wrist Cannon (AFPWC) is made to simulate a force push using a blast of condensed air. Though weaker it holds the same effects of a force push.",
+      "Name": "AFPWC",
+      "Prereqs": [
+          {
+              "Name": "Wrist Rocket"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 3
+  },
+  {
+      "alignment": 1,
+      "category": 12,
+      "Description": "Armguard Hard Light Projector (AHLP) is a armguard shield that projects hard light particles to create a small shield to defend the user.",
+      "Name": "AHLP",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 5
+  },
+  {
+      "alignment": 1,
+      "category": 8,
+      "Description": "",
+      "Name": "Adhesive Grenade",
+      "Prereqs": [
+          {
+              "Name": "Trap Explosives"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Advanced Administration",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Administration"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "The user may now alter the elements of fire and air and begin to create mixtures of the previous elements for further effect.",
+      "Name": "Advanced Alter Environment",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Alter Enviroment"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 2,
+      "category": 7,
+      "Description": "",
+      "Name": "Advanced Ataru",
+      "Prereqs": [
+          {
+              "Name": "Advanced Lightsaber Combat"
+          },
+          {
+              "Name": "Intermediate Ataru"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 3
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Advanced Bandaging",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Bandaging"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Advanced Blaster Rifle Training",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Blaster Rifle Training"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 10,
+      "Description": "",
+      "Name": "Advanced Bleeding Strike",
+      "Prereqs": [
+          {
+              "Name": "Advanced Vibroblade"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 3
+  },
+  {
+      "alignment": 1,
+      "category": 8,
+      "Description": "",
+      "Name": "Advanced Bomb Diffusing",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Bomb Diffusing"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Advanced Bone Setting",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Bandaging"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "",
+      "Name": "Advanced Broken Gate",
+      "Prereqs": [
+          {
+              "Name": "Advanced Unarmed Combat"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Charged shot is more powerful and takes less time to charge",
+      "Name": "Advanced Charged Shot",
+      "Prereqs": [
+          {
+              "Name": "Pistol Mastery"
+          },
+          {
+              "Name": "Improved Charged Shot"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 5
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Advanced Construction",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Construction"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Advanced Creation",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Creation"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 10,
+      "Description": "",
+      "Name": "Advanced Critical Strike",
+      "Prereqs": [
+          {
+              "Name": "Advanced Vibroblade Training"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 3
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "The ability to bleed the most advanced crystals. Also gives the ability to create black core crystals.",
+      "Name": "Advanced Crystal Bleeding",
+      "Prereqs": [
+          {
+              "Name": "Advanced Sith Alchemy"
+          },
+          {
+              "Name": "Intermediate Crystal Bleeding"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 0
+  },
+  {
+      "alignment": 1,
+      "category": 10,
+      "Description": "",
+      "Name": "Advanced Flurry",
+      "Prereqs": [
+          {
+              "Name": "Advanced Vibroblade Training"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 3
+  },
+  {
+      "alignment": 2,
+      "category": 6,
+      "Description": "",
+      "Name": "Advanced Force Affinity",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Force Affinity"
+          },
+          {
+              "Name": "Advanced Force Forms"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 3
+  },
+  {
+      "alignment": 2,
+      "category": 6,
+      "Description": "",
+      "Name": "Advanced Force Channel",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Force Channel"
+          },
+          {
+              "Name": "Advanced Force Forms"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 3
+  },
+  {
+      "alignment": 2,
+      "category": 13,
+      "Description": "The user is now considered above average in their use of Force Form",
+      "Name": "Advanced Force Forms",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Force Forms"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 3,
+      "category": 1,
+      "Description": "User may now heal severe/killer wounds and heal internal wounds.",
+      "Name": "Advanced Force Healing",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Force Healing"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 3,
+      "category": 1,
+      "Description": "Using force light will now permanently destroy the darkside in any of the previously mentioned entities.",
+      "Name": "Advanced Force Light",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Force Light"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 2,
+      "category": 6,
+      "Description": "",
+      "Name": "Advanced Force Mastery",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Force Mastery"
+          },
+          {
+              "Name": "Advanced Force Forms"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 3
+  },
+  {
+      "alignment": 2,
+      "category": 6,
+      "Description": "",
+      "Name": "Advanced Force Mentalism",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Force Mentalism"
+          },
+          {
+              "Name": "Advanced Force Forms"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 3
+  },
+  {
+      "alignment": 2,
+      "category": 6,
+      "Description": "",
+      "Name": "Advanced Force Potency",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Force Potency"
+          },
+          {
+              "Name": "Advanced Force Forms"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 3
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Advanced Jetpacks",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Jetpacks"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 7,
+      "Description": "",
+      "Name": "Advanced Juyo",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Lightsaber Combat"
+          },
+          {
+              "Name": "Intermediate Juyo"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 3
+  },
+  {
+      "alignment": 2,
+      "category": 13,
+      "Description": "The user is now considered above average in their use of lightsabers.",
+      "Name": "Advanced Lightsaber Combat",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Lightsaber Combat"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 7,
+      "Description": "",
+      "Name": "Advanced Makashi",
+      "Prereqs": [
+          {
+              "Name": "Advanced Lightsaber Combat"
+          },
+          {
+              "Name": "Intermediate Makashi"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 3
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Advanced Marksman Training",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Marksman Training"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 3,
+      "Description": "The user can begin to manipulate the basics of eletric currents and machines. This does not damage them such as a ionize",
+      "Name": "Advanced Mecha-Deru",
+      "Prereqs": [
+          {
+              "Name": "Basic Mecha-Deru"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 7,
+      "Description": "",
+      "Name": "Advanced Niman",
+      "Prereqs": [
+          {
+              "Name": "Advanced Lightsaber Combat"
+          },
+          {
+              "Name": "Intermediate Niman"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 3
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Advanced Pistol Training",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Pistol Training"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 3,
+      "category": 1,
+      "Description": "",
+      "Name": "Advanced Plant Surge",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Plant Surge"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "The user may make extremely dangerous poisons, toxins and plagues that will very often cause the death of their target.",
+      "Name": "Advanced Poison Creation",
+      "Prereqs": [
+          {
+              "Name": "Advanced Sith Alchemy"
+          },
+          {
+              "Name": "Intermediate Poison Creation"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 1,
+      "category": 10,
+      "Description": "",
+      "Name": "Advanced Power Attack",
+      "Prereqs": [
+          {
+              "Name": "Advanced Vibroblade Training"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 3
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Provides an accurate shot allowing the user to aim at any area of the target.",
+      "Name": "Advanced Precision Shot",
+      "Prereqs": [
+          {
+              "Name": "Pistol Mastery"
+          },
+          {
+              "Name": "Improved Precision Shot"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 5
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Advanced quickens the draw and allows you to shoot more.",
+      "Name": "Advanced Quick Draw",
+      "Prereqs": [
+          {
+              "Name": "Pistol Mastery"
+          },
+          {
+              "Name": "Improved Quick Draw"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 5
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "The user may raise an army of the dead through Sith magic, the reanimated are stronger, more durable, and will remain intact for a longer period of time.",
+      "Name": "Advanced Reanimtion",
+      "Prereqs": [
+          {
+              "Name": "Advanced Sith Alchemy"
+          },
+          {
+              "Name": "Intermediate Reanimation"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Advanced Repairs",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Repairs"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 7,
+      "Description": "",
+      "Name": "Advanced Shien/Djem-so",
+      "Prereqs": [
+          {
+              "Name": "Advanced Lightsaber Combat"
+          },
+          {
+              "Name": "Intermediate Shien/Djem-so"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 3
+  },
+  {
+      "alignment": 2,
+      "category": 7,
+      "Description": "",
+      "Name": "Advanced Shii Cho",
+      "Prereqs": [
+          {
+              "Name": "Advanced Lightsaber Combat"
+          },
+          {
+              "Name": "Intermediate Shii Cho"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 3
+  },
+  {
+      "alignment": 4,
+      "category": 6,
+      "Description": "",
+      "Name": "Advanced Sith Alchemy",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Sith Alchemy"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 2
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "The user may create more powerful runes and wards then before.",
+      "Name": "Advanced Sith Runes",
+      "Prereqs": [
+          {
+              "Name": "Advanced Sith Alchemy"
+          },
+          {
+              "Name": "Basic Sith Runes"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 0
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Advanced Slicing",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Slicing"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 7,
+      "Description": "",
+      "Name": "Advanced Soresu",
+      "Prereqs": [
+          {
+              "Name": "Advanced Lightsaber Combat"
+          },
+          {
+              "Name": "Intermediate Soresu"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 3
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "The user may create Sith Spawns from Apex predators, however to control them for any long period of time will take immense concentration.",
+      "Name": "Advanced Spawn Creation",
+      "Prereqs": [
+          {
+              "Name": "Advanced Sith Alchemy"
+          },
+          {
+              "Name": "Intermediate Spawn Creation"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "",
+      "Name": "Advanced Stava",
+      "Prereqs": [
+          {
+              "Name": "Advanced Unarmed Combat"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Advanced Surgery",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Surgery"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "",
+      "Name": "Advanced Teras Kasi",
+      "Prereqs": [
+          {
+              "Name": "Advanced Unarmed Combat"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Advanced Unarmed Training",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Unarmed Training"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Advanced Vibroblade Training",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Vibroblade Training"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 4,
+      "category": 1,
+      "Description": "The last stage of dark healing, allowing a user to forcefully shut larger and more lethal wounds.",
+      "Name": "Advanced dark Healing",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Dark Healing"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Focus to create a aimed shot, more accurate than typical blaster shot.",
+      "Name": "Aimed Shots",
+      "Prereqs": [
+          {
+              "Name": "Basic Marksman Training"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 9,
+      "Description": "",
+      "Name": "Air Maneuvers",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 3,
+      "category": 1,
+      "Description": "An ability that allowed the user to change the damage their lightsaber inflicted upon a target. Allowing them to reduce the damage to not kill a target.",
+      "Name": "Alter Damage",
+      "Prereqs": [
+          {
+              "Name": "Telekinesis"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 3,
+      "category": 3,
+      "Description": "The use of the force to befriend and handle wild creatures",
+      "Name": "Animal Friendship",
+      "Prereqs": [
+          {
+              "Name": "Force Empathy"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Fire a shot dedicated to breaking through armor.",
+      "Name": "Anti-Armor Shots",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Marksman Training"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Fire a shot dedicated to break through pretty much anything.",
+      "Name": "Anti-Material Rounds",
+      "Prereqs": [
+          {
+              "Name": "Marksman Mastery"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 10
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Fire hollow point shots made to inflict greater damage to less armored targets.",
+      "Name": "Anti-Organic Rounds",
+      "Prereqs": [
+          {
+              "Name": "Advanced Marksman Training"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 3
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Quickly create a volley of silenced shots.",
+      "Name": "Array of Silenced Rounds",
+      "Prereqs": [
+          {
+              "Name": "Advanced Marksman Training"
+          },
+          {
+              "Name": "Silenced Rounds"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 3
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "Allows the user to conjured a field that projects a vague feeling of unease around themselves.",
+      "Name": "Aura of Uneasiness",
+      "Prereqs": [
+          {
+              "Name": "Basic Sith Alchemy"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Basic Administration",
+      "Prereqs": [
+          {
+              "Name": "Basic Medical Training"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Aim and shoot a more accurate shot than normal.",
+      "Name": "Basic Aim",
+      "Prereqs": [
+          {
+              "Name": "Basic Blaster Rifle Training"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 4,
+      "category": 6,
+      "Description": "",
+      "Name": "Basic Alchemy",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "The basic ability to use the force to manipulate nature around the user. Basic allows for the control of water bodies.",
+      "Name": "Basic Alter Enviroment",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Basic Arms Training",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 2,
+      "category": 7,
+      "Description": "",
+      "Name": "Basic Ataru",
+      "Prereqs": [
+          {
+              "Name": "Basic Lightsaber Combat"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Basic Bandaging",
+      "Prereqs": [
+          {
+              "Name": "Basic Medical Training"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Basic Blaster Rifle Training",
+      "Prereqs": [
+          {
+              "Name": "Basic Arms Training"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 10,
+      "Description": "",
+      "Name": "Basic Bleeding Strike",
+      "Prereqs": [
+          {
+              "Name": "Basic Vibroblade Training"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 8,
+      "Description": "",
+      "Name": "Basic Bomb Diffusing",
+      "Prereqs": [
+          {
+              "Name": "Basic Explosives"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Basic Bone Setting",
+      "Prereqs": [
+          {
+              "Name": "Basic Medical Training"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "",
+      "Name": "Basic Broken Gate",
+      "Prereqs": [
+          {
+              "Name": "Basic Unarmed Combat"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Shoot a charged up powered shot against a target.",
+      "Name": "Basic Charged Shot",
+      "Prereqs": [
+          {
+              "Name": "Basic Pistol Training"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Basic Close Quarters Training",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Basic Construction",
+      "Prereqs": [
+          {
+              "Name": "Basic Engineering Training"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Basic Creation",
+      "Prereqs": [
+          {
+              "Name": "Basic Engineering Training"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 10,
+      "Description": "",
+      "Name": "Basic Critical Strike",
+      "Prereqs": [
+          {
+              "Name": "Basic Vibroblade Training"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "The ability to bleed the most basic of crystals, ones weaker in the light. This creates a red crystal.",
+      "Name": "Basic Crystal Bleeding",
+      "Prereqs": [
+          {
+              "Name": "Basic Sith Alchemy"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 0
+  },
+  {
+      "alignment": 4,
+      "category": 1,
+      "Description": "The basic level of dark healing. Allowing the user to put a temporary mend to basic wounds.",
+      "Name": "Basic Dark Healing",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Basic Engineering Training",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Basic Explosives Training",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 1,
+      "category": 10,
+      "Description": "",
+      "Name": "Basic Flurry",
+      "Prereqs": [
+          {
+              "Name": "Basic Vibroblade Training"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 2,
+      "category": 6,
+      "Description": "",
+      "Name": "Basic Force Affinity",
+      "Prereqs": [
+          {
+              "Name": "Basic Force Forms"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 2,
+      "category": 6,
+      "Description": "",
+      "Name": "Basic Force Channel",
+      "Prereqs": [
+          {
+              "Name": "Basic Force Forms"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 2,
+      "category": 13,
+      "Description": "The user has a basic level of understanding in Force Form",
+      "Name": "Basic Force Forms",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 3,
+      "category": 1,
+      "Description": "Allows for basic healing of light wounds",
+      "Name": "Basic Force Healing",
+      "Prereqs": [
+          {
+              "Name": "Curato Salva"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 3,
+      "category": 1,
+      "Description": "When used against a darksider, it reduces their connection to the force",
+      "Name": "Basic Force Light",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 2,
+      "category": 6,
+      "Description": "",
+      "Name": "Basic Force Mastery",
+      "Prereqs": [
+          {
+              "Name": "Basic Force Forms"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 2,
+      "category": 6,
+      "Description": "",
+      "Name": "Basic Force Mentalism",
+      "Prereqs": [
+          {
+              "Name": "Basic Force Forms"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 2,
+      "category": 6,
+      "Description": "",
+      "Name": "Basic Force Potency",
+      "Prereqs": [
+          {
+              "Name": "Basic Force Forms"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Basic Jetpacks",
+      "Prereqs": [
+          {
+              "Name": "Basic Mobility Training"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 2,
+      "category": 7,
+      "Description": "",
+      "Name": "Basic Juyo",
+      "Prereqs": [
+          {
+              "Name": "Basic Lightsaber Combat"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 2,
+      "category": 13,
+      "Description": "The user has a basic level of understanding in lightsabers.",
+      "Name": "Basic Lightsaber Combat",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 2,
+      "category": 7,
+      "Description": "",
+      "Name": "Basic Makashi",
+      "Prereqs": [
+          {
+              "Name": "Basic Lightsaber Combat"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Basic Marksman Training",
+      "Prereqs": [
+          {
+              "Name": "Basic Arms Training"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 2,
+      "category": 3,
+      "Description": "A sith technique that allowed the user to exert their influrnce over robotic and inanimate constructs",
+      "Name": "Basic Mecha-Deru",
+      "Prereqs": [
+          {
+              "Name": "Stun Droid"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Basic Medical Training",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Basic Mobility Training",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 2,
+      "category": 7,
+      "Description": "",
+      "Name": "Basic Niman",
+      "Prereqs": [
+          {
+              "Name": "Basic Lightsaber Combat"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Basic Pistol Training",
+      "Prereqs": [
+          {
+              "Name": "Basic Arms Training"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 3,
+      "category": 1,
+      "Description": "Channeling life energy from the force into plants.",
+      "Name": "Basic Plant Surge",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "Allows the user to create basic toxins plagues, and poisons",
+      "Name": "Basic Poison Creation",
+      "Prereqs": [
+          {
+              "Name": "Basic Sith Alchemy"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 10,
+      "Description": "",
+      "Name": "Basic Power Attack",
+      "Prereqs": [
+          {
+              "Name": "Basic Vibroblade Training"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "A simple poiwered up shot, stronger than normal shot.",
+      "Name": "Basic Power Shot",
+      "Prereqs": [
+          {
+              "Name": "Basic Blaster Rifle Training"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Shoot a aimed shot - have better accuracy.",
+      "Name": "Basic Precision Shot",
+      "Prereqs": [
+          {
+              "Name": "Basic Pistol Training"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Quickly draw your weapon, followed up with several quick shots against a target - reduced accuracy.",
+      "Name": "Basic Quick Draw",
+      "Prereqs": [
+          {
+              "Name": "Basic Pistol Training"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Shoot multiple rapid shots at one target.",
+      "Name": "Basic Rapit Shot",
+      "Prereqs": [
+          {
+              "Name": "Basic Blaster Rifle Training"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "Allows the user to reanimate the dead, but for a brief period of time and with few reanimtions",
+      "Name": "Basic Reanimation",
+      "Prereqs": [
+          {
+              "Name": "Basic Sith Alchemy"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Basic Repairs",
+      "Prereqs": [
+          {
+              "Name": "Basic Engineering Training"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 2,
+      "category": 7,
+      "Description": "",
+      "Name": "Basic Shien/Djem-so",
+      "Prereqs": [
+          {
+              "Name": "Basic Lightsaber Combat"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 2,
+      "category": 7,
+      "Description": "",
+      "Name": "Basic Shii Cho",
+      "Prereqs": [
+          {
+              "Name": "Basic Lightsaber Combat"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "The user may enhance relics, items, and even structures with Sith Runes.",
+      "Name": "Basic Sith Runes",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Sith Alchemy"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Basic Slicing",
+      "Prereqs": [
+          {
+              "Name": "Basic Engineering Training"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 2,
+      "category": 7,
+      "Description": "",
+      "Name": "Basic Soresu",
+      "Prereqs": [
+          {
+              "Name": "Basic Lightsaber Combat"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "",
+      "Name": "Basic Spawn Creation",
+      "Prereqs": [
+          {
+              "Name": "Basic Sith Alchemy"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "",
+      "Name": "Basic Stava",
+      "Prereqs": [
+          {
+              "Name": "Basic Unarmed Combat"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Basic Surgery",
+      "Prereqs": [
+          {
+              "Name": "Basic Medical Training"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Basic Tech Training",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "",
+      "Name": "Basic Teras Kasi",
+      "Prereqs": [
+          {
+              "Name": "Basic Unarmed Combat"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 9,
+      "Description": "",
+      "Name": "Basic Thruster",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 0
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "An umbrella title used by the Jedi Order to classify Force Abilities related to force absorption.",
+      "Name": "Basic Tutaminus",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Basic Unarmed Training",
+      "Prereqs": [
+          {
+              "Name": "Basic Close Quarters Training"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Basic Vibroblade Training",
+      "Prereqs": [
+          {
+              "Name": "Basic Close Quarters Training"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 2,
+      "category": 2,
+      "Description": "A force ability that boosts the morale, stamina and battle prowess of the user's allies. At the same time it would do the oppsiate towards the user's enemy.",
+      "Name": "Battle Meditation",
+      "Prereqs": [
+          {
+              "Name": "Battle Mind"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 2,
+      "category": 3,
+      "Description": "A force power wherein one's morale and fighting spirit was augmented through sheet focus, giving a user the drive to fight through even the hardest of conflicts.",
+      "Name": "Battle Mind",
+      "Prereqs": [
+          {
+              "Name": "Battle Precoginition"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 3,
+      "Description": "The ability of foresight of events to come.",
+      "Name": "Battle Precognition",
+      "Prereqs": [
+          {
+              "Name": "Danger Sense"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Blaster Rifle Mastery",
+      "Prereqs": [
+          {
+              "Name": "Advanced Blaster Rifle Training"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 5
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Disable/Critically wound a targets body part.",
+      "Name": "Bodypart Disable",
+      "Prereqs": [
+          {
+              "Name": "Advanced Marksman Training"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 3
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Focus shot on a particular body part.",
+      "Name": "Bodypart Focus",
+      "Prereqs": [
+          {
+              "Name": "Basic Marksman Training"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "Conured through magic, the user would hurl a pure bolt of hatred at their target.",
+      "Name": "Bolt of Hatred",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Sith Alchemy"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 2,
+      "Description": "A force ability that allows the user's body to go for longer periods of time without oxygen",
+      "Name": "Breath Control",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "",
+      "Name": "Broken Gate Mastery",
+      "Prereqs": [
+          {
+              "Name": "Unarmed Mastery"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 5
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Create a burst of shots, spraying about in a specific area.",
+      "Name": "Burst Fire",
+      "Prereqs": [
+          {
+              "Name": "Advanced Pistol Training"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 3
+  },
+  {
+      "alignment": 4,
+      "category": 1,
+      "Description": "A burst of lightning that spreads fro mthe first target to other nearby targets.",
+      "Name": "Chain Lightning",
+      "Prereqs": [
+          {
+              "Name": "Force Lightning"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "",
+      "Name": "Charged Launcher",
+      "Prereqs": [
+          {
+              "Name": "Blaster Rifle Mastery"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 5
+  },
+  {
+      "alignment": 3,
+      "category": 1,
+      "Description": "The ability to cleanse a target from mind effects the user may be suffering from.",
+      "Name": "Cleanse Mind",
+      "Prereqs": [
+          {
+              "Name": "Basic Force Healing"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 9,
+      "Description": "",
+      "Name": "Combat Refueling",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Causes the target to become confused, taking them out of the fight for a short time.",
+      "Name": "Concussive Round",
+      "Prereqs": [
+          {
+              "Name": "Advanced Blaster Rifle Training"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 3
+  },
+  {
+      "alignment": 4,
+      "category": 2,
+      "Description": "Allows the user to feed on the fear, hatred or control negative emotions to make themselves more powerful",
+      "Name": "Consume Essence",
+      "Prereqs": [
+          {
+              "Name": "Force Rage"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 9,
+      "Description": "",
+      "Name": "Continued Flight",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 4,
+      "category": 1,
+      "Description": "To control the mind of a target and have that target obey the user.",
+      "Name": "Control Mind",
+      "Prereqs": [
+          {
+              "Name": "Mind Twist"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "A ritual that allowed the user to invoke spirits conjured through magic. This allows the user to target a force sensitive and create intimate images of their past.",
+      "Name": "Corpse Vision",
+      "Prereqs": [
+          {
+              "Name": "Advanced Sith Alchemy"
+          },
+          {
+              "Name": "Invoke Spirit"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Provide fire for ally, giving less accurate array of shots to distract the opponent.",
+      "Name": "Covering Fire",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Blaster Rifle Training"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "A technique for transcending the physical pain beyond normal thresholds.",
+      "Name": "Crucitorn",
+      "Prereqs": [
+          {
+              "Name": "Malacia"
+          }
+      ],
+      "rank": 5,
+      "skillCost": 10
+  },
+  {
+      "alignment": 1,
+      "category": 8,
+      "Description": "",
+      "Name": "Cryo Grenade",
+      "Prereqs": [
+          {
+              "Name": "Trap Explosives"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 2,
+      "Description": "An umbrella title used to classify Force abilities related to self-healing. Developed as a way to stay fit, maintain endurance, and extend one's lifespan by staving off decay.",
+      "Name": "Curato Salva",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 3,
+      "category": 1,
+      "Description": "A variant of force healing that focuses on curing diseases afflicting living things.",
+      "Name": "Cure Disease",
+      "Prereqs": [
+          {
+              "Name": "Basic Force Healing"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 3,
+      "Description": "Allows the user to extend his self around himself like protective sensors, creating an early warning system for as long as the power is in effect.",
+      "Name": "Danger Sense",
+      "Prereqs": [
+          {
+              "Name": "Force Sense"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "An intense concentration of dark side energy used to immobalize targets.",
+      "Name": "Dark Energy Trap",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Sith Alchemy"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "Pure manifestations of dark side energy. Summoned through Sith magic these tendrils rose in the form of black mst to swarm their victim, destroying most things in their path.",
+      "Name": "Dark Side Tendrils",
+      "Prereqs": [
+          {
+              "Name": "Advanced Sith Alchemy"
+          },
+          {
+              "Name": "Odojinya"
+          }
+      ],
+      "rank": 6,
+      "skillCost": 10
+  },
+  {
+      "alignment": 4,
+      "category": 2,
+      "Description": "Summons a spear of pure darkside energy, using it in an offensive manner to attack the target. This ability causes massive damage.",
+      "Name": "Darkshear",
+      "Prereqs": [
+          {
+              "Name": "Force Sphere"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 4,
+      "category": 3,
+      "Description": "The ability to foresee various possible futures to manipulate events.",
+      "Name": "Darksight",
+      "Prereqs": [
+          {
+              "Name": "Force Sight"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 4,
+      "category": 1,
+      "Description": "Draining the life of all organics within a vicinity. Used to steal the life and Force essence of the target and return it to the user.",
+      "Name": "Death Field",
+      "Prereqs": [
+          {
+              "Name": "Drain Force"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "Using the force to destroy the force by means of breaking key parts of the droid. ",
+      "Name": "Destroy Droid",
+      "Prereqs": [
+          {
+              "Name": "Disable Droid"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 1,
+      "category": 8,
+      "Description": "",
+      "Name": "Detonation Pack",
+      "Prereqs": [
+          {
+              "Name": "Timed Explosives"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 2,
+      "Description": "The force ability that allowed the user to purge or eject harmful toxins from the body.",
+      "Name": "Detoxify Poison",
+      "Prereqs": [
+          {
+              "Name": "Curato Salva"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "The force ability to disable and derender droids.",
+      "Name": "Disable Droid",
+      "Prereqs": [
+          {
+              "Name": "Stun Droid"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Fire a shot that may disable the opponent",
+      "Name": "Disabling Shot",
+      "Prereqs": [
+          {
+              "Name": "Advanced Blaster Rifle Training"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 3
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Disable your target making them immobilized - non Droid only.",
+      "Name": "Disabling Shots",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Marksman Training"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 12,
+      "Description": "A beacon to send a distress signal to your team, providing a location.",
+      "Name": "Distress Beacon",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 4,
+      "category": 3,
+      "Description": "The complete domination of a target's mind, a more powerful version of Control Mind. Allowing for complete compliance.",
+      "Name": "Dominate Mind",
+      "Prereqs": [
+          {
+              "Name": "Control Mind"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "Creating a figure that could percieve and affect the world around them. Similar to Force Projection but can affect the world.",
+      "Name": "Doppelganger",
+      "Prereqs": [
+          {
+              "Name": "Force Projection"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 4,
+      "category": 1,
+      "Description": "Draining a target's energy from the force. Organics only.",
+      "Name": "Drain Force",
+      "Prereqs": [
+          {
+              "Name": "Drain Life"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 4,
+      "category": 1,
+      "Description": "Draining a target's life enery and possibly restoring the users as a result.",
+      "Name": "Drain Life",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Disable critical components of droids, making them.",
+      "Name": "Droid Disable",
+      "Prereqs": [
+          {
+              "Name": "Advanced Marksman Training"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 3
+  },
+  {
+      "alignment": 1,
+      "category": 10,
+      "Description": "",
+      "Name": "Dual Wield",
+      "Prereqs": [
+          {
+              "Name": "Vibroblade Mastery"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 3
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Allows the user to use two pistols at once.",
+      "Name": "Dual Wielding",
+      "Prereqs": [
+          {
+              "Name": "Advanced Pistol Training"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 3
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "Translating literally to 'Summon Demon' A Sith incantation used to summon a darkside Smoke Demon.",
+      "Name": "Dwomutsiqsa",
+      "Prereqs": [
+          {
+              "Name": "Advanced Sith Alchemy"
+          },
+          {
+              "Name": "Invoke Spirit"
+          }
+      ],
+      "rank": 5,
+      "skillCost": 5
+  },
+  {
+      "alignment": 3,
+      "category": 1,
+      "Description": "Similar as force lightning but does not draw from the darkside. Is somewhat weaker than normal lightning.",
+      "Name": "Eletric Judgement",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 6,
+      "skillCost": 20
+  },
+  {
+      "alignment": 3,
+      "category": 4,
+      "Description": "To purge the user of feelings and create an emotional anchor",
+      "Name": "Empty Meditation",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 0
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "A ritual that can enhance weapons and armor with Darkside Energy",
+      "Name": "Enhance Weapon",
+      "Prereqs": [
+          {
+              "Name": "Basic Sith Alchemy"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 4,
+      "category": 1,
+      "Description": "To focus the user's anger to survive fatal injuries.",
+      "Name": "Eternal Hatred",
+      "Prereqs": [
+          {
+              "Name": "Consume Essence"
+          }
+      ],
+      "rank": 6,
+      "skillCost": 10
+  },
+  {
+      "alignment": 1,
+      "category": 12,
+      "Description": "Armor that gives the user added strength.",
+      "Name": "Exosuit",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 10
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "The user may take up to three Droids to control and command. This does not damage the droids.",
+      "Name": "Expert Mecha-Deru",
+      "Prereqs": [
+          {
+              "Name": "Advanced Mecha-Deru"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "The usage of Sith Magic to cover a Darksider's aura with one of their choosing.",
+      "Name": "False Aura",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Sith Alchemy"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 12,
+      "Description": "Creates fake energy readings to confuse and fool nearby targets.",
+      "Name": "False Energy Jammer",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 5
+  },
+  {
+      "alignment": 3,
+      "category": 3,
+      "Description": "To gain vague impressions of events happening in places or times using the force.",
+      "Name": "Farseeing",
+      "Prereqs": [
+          {
+              "Name": "Force Sight"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Throw a flashbang to blind anyone near the detonation for a short period of time",
+      "Name": "Flashbang",
+      "Prereqs": [
+          {
+              "Name": "Basic Marksman Training"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 3,
+      "category": 2,
+      "Description": "A technique used by lightsiders that allows them to shut down certain areas of their mind that react to emotional trama. This causes them to forget those specific memories.",
+      "Name": "Flashburn",
+      "Prereqs": [
+          {
+              "Name": "Empty Meditation"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "The ability to peer into the past and future. When using flow walk, one could change someone's perception of the past, but not the past itself.",
+      "Name": "Flow Walking",
+      "Prereqs": [
+          {
+              "Name": "Fareseeing"
+          },
+          {
+              "Name": "Darksight"
+          },
+          {
+              "Name": "Psychometry"
+          }
+      ],
+      "rank": 6,
+      "skillCost": 10
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "Allows a Force User to absorb or dissipate all kinds of energy",
+      "Name": "Force Absorb",
+      "Prereqs": [
+          {
+              "Name": "Force Defend"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 2,
+      "category": 6,
+      "Description": "",
+      "Name": "Force Affinity Mastery",
+      "Prereqs": [
+          {
+              "Name": "Advanced Force Affinity"
+          },
+          {
+              "Name": "Force Form Mastery"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 5
+  },
+  {
+      "alignment": 4,
+      "category": 1,
+      "Description": "An advanced version of Force Slow. The ability acted much like a fast poison, debilitating the target and may even cause death over time if not treated.",
+      "Name": "Force Affliction",
+      "Prereqs": [
+          {
+              "Name": "Force Slow"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "The force ability to create a wall made of the force to protect the user from energy and physical attacks.",
+      "Name": "Force Barrier",
+      "Prereqs": [
+          {
+              "Name": "Force Absorb"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "A force power that would amplify a user's voice with the force.",
+      "Name": "Force Bellow",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 3,
+      "category": 1,
+      "Description": "The use of creating a blinding flash of energy from the users hand, blinding nearby individuals like a flash grenade.",
+      "Name": "Force Blinding",
+      "Prereqs": [
+          {
+              "Name": "Force Flash"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 2,
+      "Description": "A type of Force technique which allowed any Force-sensitive to push their body's endurance past a safe limit, ignoring and sacraficing their health and well-being in order to sustain their connect to the Force",
+      "Name": "Force Body",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "A more potent version of Force Suppression, able to suppress force abilities even more.",
+      "Name": "Force Breach",
+      "Prereqs": [
+          {
+              "Name": "Force Suppression"
+          }
+      ],
+      "rank": 5,
+      "skillCost": 10
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "A power that creates a burst of force energy that is then aimed and shot at a target.",
+      "Name": "Force Burst",
+      "Prereqs": [
+          {
+              "Name": "Force Whirlwind"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 6,
+      "Description": "",
+      "Name": "Force Channel Mastery",
+      "Prereqs": [
+          {
+              "Name": "Advanced Force Channel"
+          },
+          {
+              "Name": "Force Form Mastery"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 5
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "A force ability that manipulates the force and light rendering the user invisable.",
+      "Name": "Force Cloak",
+      "Prereqs": [
+          {
+              "Name": "Force Scattering"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 3,
+      "Description": "The ability that allows the user to absorb and interpet communication with other individuals that speak other languages.",
+      "Name": "Force Comprehension",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 2,
+      "category": 2,
+      "Description": "A power that allows Force Users to mask their Force alignment, or presence in the Force",
+      "Name": "Force Concealment",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "An ability main based in combat that allowed the user to temporarily trick the enemy into fighting as an ally.",
+      "Name": "Force Confusion",
+      "Prereqs": [
+          {
+              "Name": "Force Persuassion"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 4,
+      "category": 1,
+      "Description": "Lifting the target, then imploding the body with force.",
+      "Name": "Force Crush",
+      "Prereqs": [
+          {
+              "Name": "Force Wound"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 2,
+      "category": 2,
+      "Description": "Force Defense is an ability that allows the user to reduce the amount of damage taken by Force based abilities.",
+      "Name": "Force Defend",
+      "Prereqs": [
+          {
+              "Name": "Basic Tutaminus"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "The ability to deflect energy=based attacks like blaster bolts and Force lightning",
+      "Name": "Force Deflection",
+      "Prereqs": [
+          {
+              "Name": "Basic Tutaminus"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 4,
+      "category": 1,
+      "Description": "Creating a massive energy field that would be thrown towards a particular direction.",
+      "Name": "Force Destruction",
+      "Prereqs": [
+          {
+              "Name": "Darkshear or all Darkside Telekenises abilities."
+          }
+      ],
+      "rank": 5,
+      "skillCost": 10
+  },
+  {
+      "alignment": 2,
+      "category": 3,
+      "Description": "A force power that allowed the user to pick up impressions of an individual's feelings and emotional state",
+      "Name": "Force Empathy",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 3,
+      "category": 3,
+      "Description": "A short time passive ability that pushes the users most skilled abilities and boosts them past their maximum potential.",
+      "Name": "Force Enlightenment",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 6,
+      "skillCost": 10
+  },
+  {
+      "alignment": 3,
+      "category": 1,
+      "Description": "The gradual slow down of a target's movement.",
+      "Name": "Force Exhaustion",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 4,
+      "category": 1,
+      "Description": "The use of the force to strike at a target's mind, causing them to lose focus and courage.",
+      "Name": "Force Fear",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 3,
+      "category": 1,
+      "Description": "Allowing the user to temporarily disable holocams, creating.",
+      "Name": "Force Flash",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 2,
+      "category": 13,
+      "Description": "The user has become a master in the use of Force Forms",
+      "Name": "Force Form Mastery",
+      "Prereqs": [
+          {
+              "Name": "Advanced Force Forms"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 5
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "Allows the user to grab their target with the force. Pulling them and suspending them in the air as they pleased. Force choke also is used with this ability, strangling the target with the Force",
+      "Name": "Force Grip",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 4,
+      "category": 1,
+      "Description": "An advanced form of Force Fear, allowing the user to make several targets enter a cataonic state of panic that was more difficult and severe to defend from",
+      "Name": "Force Horror",
+      "Prereqs": [
+          {
+              "Name": "Force Fear"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "A force ability that allows the user to generate illusions",
+      "Name": "Force Illusion",
+      "Prereqs": [
+          {
+              "Name": "Force Persuasion"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 3,
+      "category": 2,
+      "Description": "For a period of time the user is immune to force abilities casted towards them.",
+      "Name": "Force Immunity",
+      "Prereqs": [
+          {
+              "Name": "Force Resistance"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 4,
+      "category": 3,
+      "Description": "A improved version of Force Horror, having longer range and is more severe in its damage",
+      "Name": "Force Insanity",
+      "Prereqs": [
+          {
+              "Name": "Force Horror"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "An ability of the force that allowed the user to jump greater distances than normal.",
+      "Name": "Force Jump",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 4,
+      "category": 1,
+      "Description": "Having the user discharge eletrical energy from the user's hands, causing severe pain",
+      "Name": "Force Lightning",
+      "Prereqs": [
+          {
+              "Name": "Force Shock"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 2,
+      "category": 3,
+      "Description": "An ability that grants the user enhanced and more sensitive hearing.",
+      "Name": "Force Listening",
+      "Prereqs": [
+          {
+              "Name": "Force Sense"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 2,
+      "category": 6,
+      "Description": "",
+      "Name": "Force Mastery",
+      "Prereqs": [
+          {
+              "Name": "Advanced Force Mastery"
+          },
+          {
+              "Name": "Force Form Mastery"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 5
+  },
+  {
+      "alignment": 3,
+      "category": 3,
+      "Description": "A technique that allows a group of force users to join their minds together and act as one individual, helping in coordination.",
+      "Name": "Force Meld",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 6,
+      "skillCost": 10
+  },
+  {
+      "alignment": 2,
+      "category": 6,
+      "Description": "",
+      "Name": "Force Mentalism Mastery",
+      "Prereqs": [
+          {
+              "Name": "Advanced Force Mentalism"
+          },
+          {
+              "Name": "Force Form Mastery"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 5
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "The user attempts to subdue their target through mental domination.",
+      "Name": "Force Nightmare",
+      "Prereqs": [
+          {
+              "Name": "Force Supression"
+          },
+          {
+              "Name": "Force Stun"
+          }
+      ],
+      "rank": 6,
+      "skillCost": 10
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "The concept of using the force to exert one's influence over an sentient being",
+      "Name": "Force Persuasion",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "A ritual that created apparitions from siphoned force energy from a target. The apparitions are in the physical plane, allowing them to attack other targets.",
+      "Name": "Force Phantom",
+      "Prereqs": [
+          {
+              "Name": "Advanced Sith Alchemy"
+          },
+          {
+              "Name": "Invoke Spirit"
+          }
+      ],
+      "rank": 6,
+      "skillCost": 10
+  },
+  {
+      "alignment": 4,
+      "category": 1,
+      "Description": "A more potent version of a Force Affliction, this ability worsens over time and may be used on multiple targets.",
+      "Name": "Force Plague",
+      "Prereqs": [
+          {
+              "Name": "Force Affliction"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 2,
+      "category": 6,
+      "Description": "",
+      "Name": "Force Potency Mastery",
+      "Prereqs": [
+          {
+              "Name": "Advanced Force Potency"
+          },
+          {
+              "Name": "Force Form Mastery"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 5
+  },
+  {
+      "alignment": 2,
+      "category": 3,
+      "Description": "The ability to create a perfect illusion of the user or a target.",
+      "Name": "Force Projection",
+      "Prereqs": [
+          {
+              "Name": "Force Illusion"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 2,
+      "Description": "A powerful defensive ability, only achieved by high ranking Force users. The user created a defensive barrier that made them immune to a wide range of attacks.",
+      "Name": "Force Protection",
+      "Prereqs": [
+          {
+              "Name": "Force Barrier"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 4,
+      "category": 2,
+      "Description": "Tapping into the users fears, pain, hate, and conerting them to a rage to channel for increased speed, strength and ferocity",
+      "Name": "Force Rage",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 4,
+      "category": 1,
+      "Description": "A telekinetic ability to lift and violently contort a target",
+      "Name": "Force Rend",
+      "Prereqs": [
+          {
+              "Name": "Force Grip"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "A large force explosion similar to force wave but stronger and more violent.",
+      "Name": "Force Repulse",
+      "Prereqs": [
+          {
+              "Name": "Force Burst"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 3,
+      "category": 2,
+      "Description": "Used to defend the user and increase resistance against force abilities.",
+      "Name": "Force Resistance",
+      "Prereqs": [
+          {
+              "Name": "Force Shield"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 2,
+      "Description": "A force power that allows a user to imprint his presence within an area into the force. This would then stealth force users from being detected.",
+      "Name": "Force Scattering",
+      "Prereqs": [
+          {
+              "Name": "Force Concealment"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 3,
+      "Description": "One of the most basic abilities. Used to sense the presence of and living objects that are in the Force.",
+      "Name": "Force Sense",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 4,
+      "category": 1,
+      "Description": "An ability that allowed the user to cast a darkside shadow of themselves upon a target. Allowing them to see and hear through the shadow as their target roamed the galaxy.",
+      "Name": "Force Shadow",
+      "Prereqs": [
+          {
+              "Name": "Force Projection"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 3,
+      "category": 2,
+      "Description": "To protect the users mind from abilities that had to do with users mind.",
+      "Name": "Force Shield",
+      "Prereqs": [
+          {
+              "Name": "Thought Shield"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 4,
+      "category": 1,
+      "Description": "To create and damage the nearest enemy. Might stun them",
+      "Name": "Force Shock",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 2,
+      "category": 3,
+      "Description": "A basic force ability that enhanced the bearer's visual and spatial perception even in the dark or behind walls.",
+      "Name": "Force Sight",
+      "Prereqs": [
+          {
+              "Name": "Force Sense"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 4,
+      "category": 1,
+      "Description": "Clouding the target's mind, resulting in the target slowing down both mentally and physically",
+      "Name": "Force Slow",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 2,
+      "category": 3,
+      "Description": "Allows the user to augment their Sense of smell.",
+      "Name": "Force Smell",
+      "Prereqs": [
+          {
+              "Name": "Force Sense"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 2,
+      "category": 2,
+      "Description": "Allowed the user to maintain sprinting speeds for a greater duration, as well as let the user see the world around them in slow motion",
+      "Name": "Force Speed",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 4,
+      "category": 1,
+      "Description": "Creating a red sphere of energy that can harm opponents and deflect blaster fire",
+      "Name": "Force Sphere",
+      "Prereqs": [
+          {
+              "Name": "Telekinesis"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "A force ability to restrain or immobilize objects.",
+      "Name": "Force Stasis",
+      "Prereqs": [
+          {
+              "Name": "Force Stun"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 4,
+      "category": 2,
+      "Description": "An explosion of electrical energy directed towards all targets in a vicinity.",
+      "Name": "Force Storm",
+      "Prereqs": [
+          {
+              "Name": "All Force Lightning abilities."
+          }
+      ],
+      "rank": 5,
+      "skillCost": 10
+  },
+  {
+      "alignment": 3,
+      "category": 1,
+      "Description": "Mimics Force Storm with Eletric Judgement.",
+      "Name": "Force Storm Mimic",
+      "Prereqs": [
+          {
+              "Name": "Eletric Judgement"
+          }
+      ],
+      "rank": 6,
+      "skillCost": 10
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "A force power that could temporarily deaden the Senses and perceptions ofa  targeted enemy, preventing most movements.",
+      "Name": "Force Stun",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "A force ability that can dimish/weaken a target's force abilities.",
+      "Name": "Force Suppression",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 3,
+      "category": 1,
+      "Description": "A power that allowed the user to teleport small objects through the Force.",
+      "Name": "Force Teleportation",
+      "Prereqs": [
+          {
+              "Name": "Telekinesis"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 4,
+      "category": 1,
+      "Description": "A force power that allowed a user to travel distances by creating a momentary rift in space. This however caused the user to be corrupted by the darkside, as it broke the normal rules of the galaxy",
+      "Name": "Force Travel",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 5,
+      "skillCost": 10
+  },
+  {
+      "alignment": 3,
+      "category": 2,
+      "Description": "A power to increase the resolve, accuracy and speed of the user and allies.",
+      "Name": "Force Valor",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "Similar to force push but instead creating a wave that projected all around the user.",
+      "Name": "Force Wave",
+      "Prereqs": [
+          {
+              "Name": "Force Whirlwind"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "A Force ability that allowed the user to imbue an unpowered weapon with the Force for a period of time.",
+      "Name": "Force Weapon",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "A force power in which the character uses the Force to create a spinning wind around the target.",
+      "Name": "Force Whirlwind",
+      "Prereqs": [
+          {
+              "Name": "Telekinesis"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "A force ability that allowed the user to apply pressure to their target's body or organs. If not resisted, the specific target would be crushed.",
+      "Name": "Force Wound",
+      "Prereqs": [
+          {
+              "Name": "Force Grip"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 8,
+      "Description": "",
+      "Name": "Frag Grenade",
+      "Prereqs": [
+          {
+              "Name": "Impact Explosives"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Use your blaster to fire consecutive shots. Reduces accuracy.",
+      "Name": "Full Auto",
+      "Prereqs": [
+          {
+              "Name": "Advanced Blaster Rifle Training"
+          },
+          {
+              "Name": "Improved Rapid Shot"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 3
+  },
+  {
+      "alignment": 1,
+      "category": 8,
+      "Description": "",
+      "Name": "Grenade Launcher",
+      "Prereqs": [
+          {
+              "Name": "Ordnance"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 2,
+      "category": 2,
+      "Description": "To allow force users to enter a healing trace, and have the user enter a deep hibernation state.",
+      "Name": "Hibernation Trance",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Fire a powerful bolt, creates lots of noise.",
+      "Name": "High Impact Bolt",
+      "Prereqs": [
+          {
+              "Name": "Advanced Blaster Rifle Training"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 3
+  },
+  {
+      "alignment": 1,
+      "category": 12,
+      "Description": "A small device that will create a holographic version of yourself.",
+      "Name": "Holographic Distraction",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 3
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Impact Explosives",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 5
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "A more accurate shot, able to focus better.",
+      "Name": "Improved Aim",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Blaster Rifle Training"
+          },
+          {
+              "Name": "Basic Aim"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Your charged shot is more powerful.",
+      "Name": "Improved Charged Shot",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Pistol Training"
+          },
+          {
+              "Name": "Basic Charged Shot"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Powered shot is stronger than the basic.",
+      "Name": "Improved Power Shot",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Blaster Rifle Training"
+          },
+          {
+              "Name": "Basic Power Shot"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Provide a better aimed a shot.",
+      "Name": "Improved Precision Shot",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Pistol Training"
+          },
+          {
+              "Name": "Basic Precision Shot"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Improved allows you to spread the shots between multiple targets.",
+      "Name": "Improved Quick Draw",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Pistol Training"
+          },
+          {
+              "Name": "Basic Quick Draw"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Improved Rapid shot now shoots stronger shots with increased speed.",
+      "Name": "Improved Rapid Shot",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Blaster Rifle Training"
+          },
+          {
+              "Name": "Basic Rapid Shot"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Intermediate Administration",
+      "Prereqs": [
+          {
+              "Name": "Basic Administration"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "Users of Alter Environment may now affect the earth around them.",
+      "Name": "Intermediate Alter Enviroment",
+      "Prereqs": [
+          {
+              "Name": "Basic Alter Enviroment"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 7,
+      "Description": "",
+      "Name": "Intermediate Ataru",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Lightsaber Combat"
+          },
+          {
+              "Name": "Basic Ataru"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Intermediate Bandaging",
+      "Prereqs": [
+          {
+              "Name": "Basic Bandaging"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Intermediate Blaster Rifle Training",
+      "Prereqs": [
+          {
+              "Name": "Basic Blaster Rifle Training"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 10,
+      "Description": "",
+      "Name": "Intermediate Bleeding Strike",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Vibroblade Training"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 8,
+      "Description": "",
+      "Name": "Intermediate Bomb Diffusing",
+      "Prereqs": [
+          {
+              "Name": "Basic Diffusing"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Intermediate Bone Setting",
+      "Prereqs": [
+          {
+              "Name": "Basic Bone Setting"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "",
+      "Name": "Intermediate Broken Gate",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Unarmed Combat"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Intermediate Construction",
+      "Prereqs": [
+          {
+              "Name": "Basic Construction"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Intermediate Creation",
+      "Prereqs": [
+          {
+              "Name": "Basic Creation"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 10,
+      "Description": "",
+      "Name": "Intermediate Critical Strike",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Vibroblade Training"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "The ability to bleed more advanced crystals that are stronger in the light. Also gives the ability to create other colors of synthetic crystals.",
+      "Name": "Intermediate Crystal Bleeding",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Sith Alchemy"
+          },
+          {
+              "Name": "Basic Crystal Bleeding"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 0
+  },
+  {
+      "alignment": 4,
+      "category": 1,
+      "Description": "The next stage of dark healing, allowing the user to begin to permanently shut wounds. However unlike normal Force Healing, will cause scarring and damage.",
+      "Name": "Intermediate Dark Healing",
+      "Prereqs": [
+          {
+              "Name": "Basic Dark Healing"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 10,
+      "Description": "",
+      "Name": "Intermediate Flurry",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Vibroblade Training"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 6,
+      "Description": "",
+      "Name": "Intermediate Force Affinity",
+      "Prereqs": [
+          {
+              "Name": "Basic Force Affinity"
+          },
+          {
+              "Name": "Intermediate Force Forms"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 6,
+      "Description": "",
+      "Name": "Intermediate Force Channel",
+      "Prereqs": [
+          {
+              "Name": "Basic Force Channel"
+          },
+          {
+              "Name": "Intermediate Force Forms"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 13,
+      "Description": "The user has begun to increase their knowledge in the user of Force Form",
+      "Name": "Intermediate Force Forms",
+      "Prereqs": [
+          {
+              "Name": "Basic Force Forms"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 3,
+      "category": 1,
+      "Description": "",
+      "Name": "Intermediate Force Healing",
+      "Prereqs": [
+          {
+              "Name": "Basic Force Healing"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 3,
+      "category": 1,
+      "Description": "Intermediate allows the user then dimishes the darkside in manifestations, nexus points, spirits, or living persons.",
+      "Name": "Intermediate Force Light",
+      "Prereqs": [
+          {
+              "Name": "Basic Force Light"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 6,
+      "Description": "",
+      "Name": "Intermediate Force Mastery",
+      "Prereqs": [
+          {
+              "Name": "Basic Force Mastery"
+          },
+          {
+              "Name": "Intermediate Force Forms"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 6,
+      "Description": "",
+      "Name": "Intermediate Force Mentalism",
+      "Prereqs": [
+          {
+              "Name": "Basic Force Mentalism"
+          },
+          {
+              "Name": "Intermediate Force Forms"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 6,
+      "Description": "",
+      "Name": "Intermediate Force Potency",
+      "Prereqs": [
+          {
+              "Name": "Basic Force Potency"
+          },
+          {
+              "Name": "Intermediate Force Forms"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Intermediate Jetpacks",
+      "Prereqs": [
+          {
+              "Name": "Basic Jetpacks"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 7,
+      "Description": "",
+      "Name": "Intermediate Juyo",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Lightsaber Combat"
+          },
+          {
+              "Name": "Basic Juyo"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 13,
+      "Description": "The user has begun to increase their knowledge in the user of lightsabers.",
+      "Name": "Intermediate Lightsaber Combat",
+      "Prereqs": [
+          {
+              "Name": "Basic Lightsaber Combat"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 7,
+      "Description": "",
+      "Name": "Intermediate Makashi",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Lightsaber Combat"
+          },
+          {
+              "Name": "Basic Makashi"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Intermediate Marksman Training",
+      "Prereqs": [
+          {
+              "Name": "Basic Marksman Training"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 7,
+      "Description": "",
+      "Name": "Intermediate Niman",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Lightsaber Combat"
+          },
+          {
+              "Name": "Basic Niman"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Intermediate Pistol Training",
+      "Prereqs": [
+          {
+              "Name": "Basic Pistol Training"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 3,
+      "category": 1,
+      "Description": "Intermediate allows for the user to control the plant growth for their own ideas, such as to intangle a target.",
+      "Name": "Intermediate Plant Surge",
+      "Prereqs": [
+          {
+              "Name": "Basic Plant Surge"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "The user may create more deadly forms of poison, toxins, and plagues.",
+      "Name": "Intermediate Poison Creation",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Sith Alchemy"
+          },
+          {
+              "Name": "Basic Poison"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 10,
+      "Description": "",
+      "Name": "Intermediate Power Attack",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Vibroblade Training"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "The user may reanimate the dead for a longer period of time, and create more reanimations.",
+      "Name": "Intermediate Reanimation",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Sith Alchemy"
+          },
+          {
+              "Name": "Basic Reanimation"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Intermediate Repairs",
+      "Prereqs": [
+          {
+              "Name": "Basic Repairs"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 7,
+      "Description": "",
+      "Name": "Intermediate Shien/Djem-so",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Lightsaber Combat"
+          },
+          {
+              "Name": "Basic Shien/Djem-so"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 7,
+      "Description": "",
+      "Name": "Intermediate Shii Cho",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Lightsaber Combat"
+          },
+          {
+              "Name": "Basic Shii Cho"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 4,
+      "category": 6,
+      "Description": "",
+      "Name": "Intermediate Sith Alchemy",
+      "Prereqs": [
+          {
+              "Name": "Basic Alchemy"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Intermediate Slicing",
+      "Prereqs": [
+          {
+              "Name": "Basic Slicing"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 7,
+      "Description": "",
+      "Name": "Intermediate Soresu",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Lightsaber Combat"
+          },
+          {
+              "Name": "Basic Soresu"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "The user may create more powerful Sith spawns from larger and more powerful creatures.",
+      "Name": "Intermediate Spawn Creation",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Sith Alchemy"
+          },
+          {
+              "Name": "Basic Spawn Creation"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "",
+      "Name": "Intermediate Stava",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Unarmed Combat"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Intermediate Surgery",
+      "Prereqs": [
+          {
+              "Name": "Basic Surgery"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "",
+      "Name": "Intermediate Teras Kasi",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Unarmed Combat"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Intermediate Unarmed Training",
+      "Prereqs": [
+          {
+              "Name": "Basic Unarmed Training"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Intermediate Vibroblade Training",
+      "Prereqs": [
+          {
+              "Name": "Basic Vibroblade Training"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "Summoned the spirit of a deceased darksider, augmenting their power for a brief period of time.",
+      "Name": "Invoke Spirit",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Sith Alchemy"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 8,
+      "Description": "",
+      "Name": "Ion Grenade",
+      "Prereqs": [
+          {
+              "Name": "Impact Explosives"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 13,
+      "Description": "The usage of two single bladed sabers at the same time.",
+      "Name": "Jark'kai",
+      "Prereqs": [
+          {
+              "Name": "Advanced Lightsaber Combat"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 0
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Jetpack Mastery",
+      "Prereqs": [
+          {
+              "Name": "Advanced Jetpacks"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 5
+  },
+  {
+      "alignment": 1,
+      "category": 9,
+      "Description": "",
+      "Name": "Jetpack Rocket",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 9,
+      "Description": "",
+      "Name": "Jump Jet",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 0
+  },
+  {
+      "alignment": 1,
+      "category": 8,
+      "Description": "",
+      "Name": "Land Mine",
+      "Prereqs": [
+          {
+              "Name": "Trap Explosives"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Marks enemy for whole team to see/find anywhere.",
+      "Name": "Laze Target",
+      "Prereqs": [
+          {
+              "Name": "Marksman Mastery"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 10
+  },
+  {
+      "alignment": 3,
+      "category": 2,
+      "Description": "Allowing the user to levitate with the force, allowing them to hover in place or move around.",
+      "Name": "Levitation",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 5,
+      "skillCost": 10
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Sniper Rifles and similar weapons feel lighter after overall use.",
+      "Name": "Lighter Armenents",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Marksman Training"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 4,
+      "category": 1,
+      "Description": "Blasting an opponent with lightning, followed by amplithying the energy until it reaches a critcal point and exploding out of the victim. Will kill anyone nearby.",
+      "Name": "Lightning Bomb",
+      "Prereqs": [
+          {
+              "Name": "Lightning Grenade"
+          },
+          {
+              "Name": "Chain Lightning"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 4,
+      "category": 1,
+      "Description": "Gripping a target into the air, then being blasted briefly with a burst of lightning.",
+      "Name": "Lightning Grenade",
+      "Prereqs": [
+          {
+              "Name": "Force Lightning"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 4,
+      "category": 1,
+      "Description": "A shield made of lightning covering and protecting the user. Can shock opponents and lowers damage the user recieves.",
+      "Name": "Lightning Shield",
+      "Prereqs": [
+          {
+              "Name": "Force Lightning"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 13,
+      "Description": "The user has become a master in the use of lightsabers",
+      "Name": "Lightsaber Mastery",
+      "Prereqs": [
+          {
+              "Name": "Advanced Lightsaber Combat"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 5
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "",
+      "Name": "Mag Shot",
+      "Prereqs": [
+          {
+              "Name": "Advanced Pistol Training"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 3
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "A ability to induce dizziness and nausea in targets.",
+      "Name": "Malacia",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Marksman Mastery",
+      "Prereqs": [
+          {
+              "Name": "Advanced Marksman Training"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 5
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "A dark side alchemist technique used to reshape the individual's appearance",
+      "Name": "Mask",
+      "Prereqs": [
+          {
+              "Name": "Advanced Sith Alchemy"
+          },
+          {
+              "Name": "False Aura"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 2,
+      "category": 7,
+      "Description": "",
+      "Name": "Master Ataru",
+      "Prereqs": [
+          {
+              "Name": "Lightsaber Mastery"
+          },
+          {
+              "Name": "Advanced Ataru"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 5
+  },
+  {
+      "alignment": 2,
+      "category": 7,
+      "Description": "",
+      "Name": "Master Juyo",
+      "Prereqs": [
+          {
+              "Name": "Lightsaber Mastery"
+          },
+          {
+              "Name": "Advanced Juyo"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 5
+  },
+  {
+      "alignment": 2,
+      "category": 7,
+      "Description": "",
+      "Name": "Master Makashi",
+      "Prereqs": [
+          {
+              "Name": "Lightsaber Mastery"
+          },
+          {
+              "Name": "Advanced Makashi"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 5
+  },
+  {
+      "alignment": 2,
+      "category": 7,
+      "Description": "",
+      "Name": "Master Niman",
+      "Prereqs": [
+          {
+              "Name": "Lightsaber Mastery"
+          },
+          {
+              "Name": "Advanced Niman"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 5
+  },
+  {
+      "alignment": 2,
+      "category": 7,
+      "Description": "",
+      "Name": "Master Shien/Djem-so",
+      "Prereqs": [
+          {
+              "Name": "Lightsaber Mastery"
+          },
+          {
+              "Name": "Advanced Shien/Djem-so"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 5
+  },
+  {
+      "alignment": 2,
+      "category": 7,
+      "Description": "",
+      "Name": "Master Shii Cho",
+      "Prereqs": [
+          {
+              "Name": "Lightsaber Mastery"
+          },
+          {
+              "Name": "Advanced Shii Cho"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 5
+  },
+  {
+      "alignment": 2,
+      "category": 7,
+      "Description": "",
+      "Name": "Master Soresu",
+      "Prereqs": [
+          {
+              "Name": "Lightsaber Mastery"
+          },
+          {
+              "Name": "Advanced Soresu"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 5
+  },
+  {
+      "alignment": 1,
+      "category": 8,
+      "Description": "",
+      "Name": "Mastery Diffuser",
+      "Prereqs": [
+          {
+              "Name": "Advanced Bomb Diffusing"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "Allows the user to alter or erase the memories or skills of another.",
+      "Name": "Memory Rub",
+      "Prereqs": [
+          {
+              "Name": "Advanced Sith Alchemy"
+          },
+          {
+              "Name": "Supress Thoughts"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 4,
+      "category": 1,
+      "Description": "The power to force a target to relive their worst memories until the target started to get physical pain from the torture",
+      "Name": "Memory Walk",
+      "Prereqs": [
+          {
+              "Name": "Dominate Mind"
+          },
+          {
+              "Name": "Force Insanity"
+          }
+      ],
+      "rank": 6,
+      "skillCost": 10
+  },
+  {
+      "alignment": 4,
+      "category": 3,
+      "Description": "Allow the user to mentally splinter a target's mind, causing immense pain",
+      "Name": "Mind Shart",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 4,
+      "category": 1,
+      "Description": "An ability that allows the user to manipulate their target's control of reality. Convincing them that certain actions are happening that are otherwise not happening.",
+      "Name": "Mind Twist",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "Similar to a Force Trance, Morichiro suspended biological functions, including breathing and heart rate. The main difference is this could be turned upon an target then the user.",
+      "Name": "Morichiro",
+      "Prereqs": [
+          {
+              "Name": "Stasis Field"
+          },
+          {
+              "Name": "Malacia"
+          },
+          {
+              "Name": "Hibernation Trance"
+          }
+      ],
+      "rank": 5,
+      "skillCost": 10
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Shoot several morter rounds to damage/destroy targets within a radius.",
+      "Name": "Mortar Volley",
+      "Prereqs": [
+          {
+              "Name": "Blaster Rifle Mastery"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 5
+  },
+  {
+      "alignment": 3,
+      "category": 4,
+      "Description": "A technique where one meditated while repairing and building mechanical devices, or simply moving an object.",
+      "Name": "Moving Meditation",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "A Sith incantation that would create a dark side web, binding their target and ensaring them, as well as sapping their strength.",
+      "Name": "Odojinya",
+      "Prereqs": [
+          {
+              "Name": "Advanced Sith Alchemy"
+          },
+          {
+              "Name": "Dark Energy Trap"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Ordnance",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 5
+  },
+  {
+      "alignment": 1,
+      "category": 12,
+      "Description": "Shoot a dart that temporarily stuns/paralizes the target.",
+      "Name": "Paralize Dart",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 3
+  },
+  {
+      "alignment": 1,
+      "category": 12,
+      "Description": "Creates a personal shield used to protect the user.",
+      "Name": "Personal Shield Generator",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 5
+  },
+  {
+      "alignment": 2,
+      "category": 2,
+      "Description": "The force power to pass through solid matter.",
+      "Name": "Phase",
+      "Prereqs": [
+          {
+              "Name": "Force Cloak"
+          }
+      ],
+      "rank": 5,
+      "skillCost": 10
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Pistol Mastery",
+      "Prereqs": [
+          {
+              "Name": "Advanced Pistol Training"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 5
+  },
+  {
+      "alignment": 1,
+      "category": 8,
+      "Description": "",
+      "Name": "Poison Grenade",
+      "Prereqs": [
+          {
+              "Name": "Impact Explosives"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 8,
+      "Description": "",
+      "Name": "Portable Mortar",
+      "Prereqs": [
+          {
+              "Name": "Ordnance"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Stronger version of Aimed Shots, be more precise with where you're shooting",
+      "Name": "Precision Shots",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Marksman Training"
+          },
+          {
+              "Name": "Aimed Shots"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 3,
+      "Description": "The Force ability of acquiring information about people or events associated with an object solely by touching.",
+      "Name": "Psychometry",
+      "Prereqs": [
+          {
+              "Name": "Force Sense"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 8,
+      "Description": "",
+      "Name": "Pyro Grenade",
+      "Prereqs": [
+          {
+              "Name": "Impact Explosives"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "Allows the user to manipulate and generate fire through control of friction.",
+      "Name": "Pyrokinesis",
+      "Prereqs": [
+          {
+              "Name": "Six Telekensis Abilities"
+          }
+      ],
+      "rank": 6,
+      "skillCost": 10
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Shoot a powerful rail shot - creates plenty of noise.",
+      "Name": "Rail Shot",
+      "Prereqs": [
+          {
+              "Name": "Advanced Pistol Training"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 3
+  },
+  {
+      "alignment": 1,
+      "category": 9,
+      "Description": "",
+      "Name": "Reversed Flight",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 3,
+      "category": 1,
+      "Description": "The ability to revitalize a target that is exhausted or wounded.",
+      "Name": "Revitalize",
+      "Prereqs": [
+          {
+              "Name": "Curato Salva"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 3,
+      "category": 4,
+      "Description": "A techique where the user meditated while using the force to float a few inches off the ground. Surrounding objects may also rise if close enough to the user.",
+      "Name": "Rising Meditation",
+      "Prereqs": [
+          {
+              "Name": "Moving Meditation"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 8,
+      "Description": "",
+      "Name": "Rocket Launcher",
+      "Prereqs": [
+          {
+              "Name": "Ordnance"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 2,
+      "category": 13,
+      "Description": "A single, long staff saber pike.",
+      "Name": "Saber Pike",
+      "Prereqs": [
+          {
+              "Name": "Advanced Lightsaber Combat"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 0
+  },
+  {
+      "alignment": 2,
+      "category": 13,
+      "Description": "The usage of a double bladed saber.",
+      "Name": "Saber Staff",
+      "Prereqs": [
+          {
+              "Name": "Advanced Lightsaber Combat"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 0
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "The force ability that allows the user to guide their weapon telekinetically using the force at a target.",
+      "Name": "Saber Throw",
+      "Prereqs": [
+          {
+              "Name": "Telekinesis"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 8,
+      "Description": "",
+      "Name": "Seismic Charge",
+      "Prereqs": [
+          {
+              "Name": "Timed Explosives"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 3,
+      "category": 4,
+      "Description": "A brief meditative state a user enters to regain focus and power.",
+      "Name": "Serenity",
+      "Prereqs": [
+          {
+              "Name": "All previous Meditations"
+          }
+      ],
+      "rank": 5,
+      "skillCost": 10
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Uses a blaster round that causes the target to bleed over time.",
+      "Name": "Serrated Shot",
+      "Prereqs": [
+          {
+              "Name": "Advanced Pistol Training"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 3
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "A force power that can cut a target's ties with the force.",
+      "Name": "Sever Force",
+      "Prereqs": [
+          {
+              "Name": "Force Breach"
+          }
+      ],
+      "rank": 6,
+      "skillCost": 10
+  },
+  {
+      "alignment": 2,
+      "category": 3,
+      "Description": "A force power that concentrates and finds the weakpoint of items, places, and people, then applying the force to that weak point to unfold and affect the thing.",
+      "Name": "Shatterpoint",
+      "Prereqs": [
+          {
+              "Name": "Requires 5 Apprentice+ Sense abilities."
+          }
+      ],
+      "rank": 6,
+      "skillCost": 10
+  },
+  {
+      "alignment": 1,
+      "category": 8,
+      "Description": "",
+      "Name": "Shock Mine",
+      "Prereqs": [
+          {
+              "Name": "Trap Explosives"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 12,
+      "Description": "Use a rocket cannon that is installed on the back of your shoulder.",
+      "Name": "Shoulder Cannon",
+      "Prereqs": [
+          {
+              "Name": "Basic Arms Training"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Fire a silenced shot - make no noise.",
+      "Name": "Silenced Rounds",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Marksman Training"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Reduce user's noise to prevent being heard by anyone nearby",
+      "Name": "Silent Feet",
+      "Prereqs": [
+          {
+              "Name": "Basic Marksman Training"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "Magic that manifested as physical fire. It burned as any normal fire would, but could also be used as a rope or tether to pull the target in.",
+      "Name": "Sith Fire",
+      "Prereqs": [
+          {
+              "Name": "Advanced Sith Alchemy"
+          }
+      ],
+      "rank": 5,
+      "skillCost": 5
+  },
+  {
+      "alignment": 4,
+      "category": 2,
+      "Description": "A blast with effects similar to force push, followed by a growing ball of lightning that grew until the user no longer had control of it.",
+      "Name": "Sith Seeker",
+      "Prereqs": [
+          {
+              "Name": "Force Burst"
+          },
+          {
+              "Name": "Lightning Bomb"
+          }
+      ],
+      "rank": 5,
+      "skillCost": 10
+  },
+  {
+      "alignment": 3,
+      "category": 1,
+      "Description": "Mimics Sith Seeker with Eletric Judgement.",
+      "Name": "Sith Seeker Mimic",
+      "Prereqs": [
+          {
+              "Name": "Eletric Judgement"
+          }
+      ],
+      "rank": 6,
+      "skillCost": 10
+  },
+  {
+      "alignment": 1,
+      "category": 8,
+      "Description": "",
+      "Name": "Smoke Grenade",
+      "Prereqs": [
+          {
+              "Name": "Impact Explosives"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 12,
+      "Description": "A device to reduece/silence sound around you.",
+      "Name": "Sound Damber Belt",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 3
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "Much like Force Cloak, this spell would hide the user as well as multiple other targets.",
+      "Name": "Spell of Concealment",
+      "Prereqs": [
+          {
+              "Name": "Advanced Sith Alchemy"
+          },
+          {
+              "Name": "Force Concealment"
+          }
+      ],
+      "rank": 5,
+      "skillCost": 5
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "The final step of Force Stasis, allowing the user to affect multiple targets at once.",
+      "Name": "Stasis Field",
+      "Prereqs": [
+          {
+              "Name": "Force Stasis"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "",
+      "Name": "Stava Mastery",
+      "Prereqs": [
+          {
+              "Name": "Unarmed Mastery"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 5
+  },
+  {
+      "alignment": 1,
+      "category": 12,
+      "Description": "An armor that will stealth/camoflauge the whole user.",
+      "Name": "Stealth Armor",
+      "Prereqs": [
+          {
+              "Name": "Stealth Generator"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 5
+  },
+  {
+      "alignment": 1,
+      "category": 12,
+      "Description": "A generator used to make targets within a vicinity visually stealthed.",
+      "Name": "Stealth Generator",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 3
+  },
+  {
+      "alignment": 1,
+      "category": 12,
+      "Description": "Basic cuffs that have the ability to send an electric shock through them to stop the target.",
+      "Name": "Stun Cuffs",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "A type of attack designed to leave a non-sentient incapacitated yet unharmed for set period of time.",
+      "Name": "Stun Droid",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Treat your rifle like an automatic, emptying several clips within an area. Will break stealth.",
+      "Name": "Suppressive Fire",
+      "Prereqs": [
+          {
+              "Name": "Advanced Marksman Training"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 3
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "Similar to Dominate mind, the user can employ Sith Magic to control and influence the minds of those around them.",
+      "Name": "Supress Thoughts",
+      "Prereqs": [
+          {
+              "Name": "Advanced Sith Alchemy"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Reload and arm up faster. Better when in cover.",
+      "Name": "Tactical Reload",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Blaster Rifle Training"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 2,
+      "category": 2,
+      "Description": "A force technique that allows the user to draw upon the force to remain warm in a cold environment",
+      "Name": "Tapas",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 2,
+      "category": 1,
+      "Description": "The basic force ability that allowed force sensitives to move and manipulate physical matter in a variety of ways",
+      "Name": "Telekinesis",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 2,
+      "category": 3,
+      "Description": "The ability to mentally communicate with force sensitive individuals.",
+      "Name": "Telepathy",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "",
+      "Name": "Teras Kasi Mastery",
+      "Prereqs": [
+          {
+              "Name": "Unarmed Mastery"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 5
+  },
+  {
+      "alignment": 1,
+      "category": 8,
+      "Description": "",
+      "Name": "Thermal Detonator",
+      "Prereqs": [
+          {
+              "Name": "Trap Explosives"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 12,
+      "Description": "A device that scans for nearby thermal energy created from nearby targets.",
+      "Name": "Thermal Scanner",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  },
+  {
+      "alignment": 1,
+      "category": 8,
+      "Description": "",
+      "Name": "Thermite Charge",
+      "Prereqs": [
+          {
+              "Name": "Timed Explosives"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "A ritual that used the focused willpower of many Darksiders. When deteonated it would release a powerful wave of darkside energy, destroying anything caught in the blast radius.",
+      "Name": "Thought Bomb",
+      "Prereqs": [
+          {
+              "Name": "Advanced Sith Alchemy"
+          }
+      ],
+      "rank": 6,
+      "skillCost": 10
+  },
+  {
+      "alignment": 2,
+      "category": 2,
+      "Description": "A technique to keep the user's thoughts, emotions, and motives secret from forcesensitives",
+      "Name": "Thought Shield",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 0
+  },
+  {
+      "alignment": 1,
+      "category": 8,
+      "Description": "",
+      "Name": "Timed Bomb",
+      "Prereqs": [
+          {
+              "Name": "Timed Explosives"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Timed Explosives",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 5
+  },
+  {
+      "alignment": 2,
+      "category": 13,
+      "Description": "The usage of turning a lightsaber on and off during combat without harming the user.",
+      "Name": "Trakata",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Lightsaber Combat"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 0
+  },
+  {
+      "alignment": 1,
+      "category": 8,
+      "Description": "",
+      "Name": "Transmitter Chip",
+      "Prereqs": [
+          {
+              "Name": "Trap Explosives"
+          }
+      ],
+      "rank": 5,
+      "skillCost": 5
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Trap Explosives",
+      "Prereqs": [
+          {
+              "Name": "none"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 5
+  },
+  {
+      "alignment": 1,
+      "category": 8,
+      "Description": "",
+      "Name": "Trip Mine",
+      "Prereqs": [
+          {
+              "Name": "Trap Explosives"
+          }
+      ],
+      "rank": 3,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Unarmed Mastery",
+      "Prereqs": [
+          {
+              "Name": "Advanced Unarmed Training"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 5
+  },
+  {
+      "alignment": 1,
+      "category": 13,
+      "Description": "",
+      "Name": "Vibroblade Mastery",
+      "Prereqs": [
+          {
+              "Name": "Advanced Vibroblade Training"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 5
+  },
+  {
+      "alignment": 3,
+      "category": 1,
+      "Description": "A large manifestation of lightside force energy created by multiple users. The group would create a wall of light that contains or purges the power of the darkside from a location.",
+      "Name": "Wall Of Light",
+      "Prereqs": [
+          {
+              "Name": "Advanced Force Light"
+          }
+      ],
+      "rank": 5,
+      "skillCost": 10
+  },
+  {
+      "alignment": 5,
+      "category": 5,
+      "Description": "The user creates strong waves of darkness, often hindering vision and causing intense despair and confusion.",
+      "Name": "Wave of Darkness",
+      "Prereqs": [
+          {
+              "Name": "Advanced Sith Alchemy"
+          }
+      ],
+      "rank": 4,
+      "skillCost": 3
+  },
+  {
+      "alignment": 1,
+      "category": 11,
+      "Description": "Focus attack to damage target's weapon.",
+      "Name": "Weapon Damage",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Marksman Training"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 2
+  },
+  {
+      "alignment": 1,
+      "category": 12,
+      "Description": "Use carbonite launched from your wrist to freeze a target.",
+      "Name": "Wrist Carbonite Freezing",
+      "Prereqs": [
+          {
+              "Name": "Intermediate Arms Training"
+          }
+      ],
+      "rank": 2,
+      "skillCost": 3
+  },
+  {
+      "alignment": 1,
+      "category": 12,
+      "Description": "Use a single rocket that is stored on your wrist.",
+      "Name": "Wrist Rocket",
+      "Prereqs": [
+          {
+              "Name": "Basic Explosives Training"
+          }
+      ],
+      "rank": 1,
+      "skillCost": 1
+  }
+]

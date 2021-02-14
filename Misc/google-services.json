@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "140377930401",
+    "firebase_url": "https://charactermaker-96052.firebaseio.com",
+    "project_id": "charactermaker-96052",
+    "storage_bucket": "charactermaker-96052.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140377930401:android:d736e5826c7c87ec838ee0",
+        "android_client_info": {
+          "package_name": "Ian.Wigle.CharacterMaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140377930401-2v6g3ep690b3mdo0geb3k0k5t62m0c4l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApO6uYfeyt_gFNlgr2kysXVmCwETsxcYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140377930401-2v6g3ep690b3mdo0geb3k0k5t62m0c4l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140377930401:android:2ff4fdbc2ab59a3a838ee0",
+        "android_client_info": {
+          "package_name": "Ian.Wigle.UnityCharacterMaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140377930401-2v6g3ep690b3mdo0geb3k0k5t62m0c4l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApO6uYfeyt_gFNlgr2kysXVmCwETsxcYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140377930401-2v6g3ep690b3mdo0geb3k0k5t62m0c4l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140377930401:android:3d3ac0ce092028ca838ee0",
+        "android_client_info": {
+          "package_name": "Syno.DiscordBot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140377930401-2v6g3ep690b3mdo0geb3k0k5t62m0c4l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApO6uYfeyt_gFNlgr2kysXVmCwETsxcYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140377930401-2v6g3ep690b3mdo0geb3k0k5t62m0c4l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:140377930401:android:90b6f157a95c20d9838ee0",
+        "android_client_info": {
+          "package_name": "test.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "140377930401-2v6g3ep690b3mdo0geb3k0k5t62m0c4l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApO6uYfeyt_gFNlgr2kysXVmCwETsxcYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "140377930401-2v6g3ep690b3mdo0geb3k0k5t62m0c4l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
