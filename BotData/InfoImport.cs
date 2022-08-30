@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 using SynovianEmpireDiscordBot.Libraries;
-using SynovianEmpireDiscordBot.CharacterMakerClasses;
+//using Synovian_Character_Maker.DataClasses.Instanced;
 
 namespace SynovianEmpireDiscordBot.BotData
 {
@@ -127,153 +127,153 @@ namespace SynovianEmpireDiscordBot.BotData
          *=============================================================================================*/
         static public void LoadAbilityLibrary(bool isRefreshing = true)
         {
-            string curDir = Directory.GetCurrentDirectory() + "\\Lists\\";
-
-            if (!Directory.Exists(curDir))
-            {
-                Directory.CreateDirectory(curDir);
-                Console.WriteLine("Error! List Folder could not be found! Made directory at " + curDir);
-                return;
-            }
-
-            string JsonString = System.IO.File.ReadAllText(curDir + "AbilityLibrary.txt");
-
-            using (JsonDocument document = JsonDocument.Parse(JsonString))
-            {
-                List<Ability> abilityList = new List<Ability>();
-
-                JsonElement root = document.RootElement;
-                foreach (JsonElement ability in root.EnumerateArray())
-                {
-                    string name = "";
-                    string desc = "";
-                    CharacterRank rank = CharacterRank.NoRank;
-                    CharacterAlignment align = CharacterAlignment.None;
-                    AbilityCategory cat = AbilityCategory.NoCategory;
-                    int skill = 0;
-                    List<string> prereqs = new List<string>();
-
-                    if (ability.TryGetProperty("Name", out JsonElement nameElement))
-                    {
-                        name = nameElement.GetString();
-                    }
-                    if (ability.TryGetProperty("rank", out JsonElement rankElement))
-                    {
-                        rank = (CharacterRank)rankElement.GetInt32();
-                    }
-                    if (ability.TryGetProperty("Description", out JsonElement descElement))
-                    {
-                        desc = descElement.GetString();
-                    }
-                    if (ability.TryGetProperty("alignment", out JsonElement alignElement))
-                    {
-                        align = (CharacterAlignment)alignElement.GetInt32();
-                    }
-                    if (ability.TryGetProperty("skillCost", out JsonElement skillElement))
-                    {
-                        skill = skillElement.GetInt32();
-                    }
-                    if (ability.TryGetProperty("category", out JsonElement categElement))
-                    {
-                        cat = (AbilityCategory)categElement.GetInt32();
-                    }
-                    if (ability.TryGetProperty("Prereqs", out JsonElement prereqsElement))
-                    {
-                        foreach (var abilityElem in prereqsElement.EnumerateArray())
-                        {
-                            if (abilityElem.TryGetProperty("Name", out JsonElement prereqName))
-                                prereqs.Add(prereqName.GetString());
-                        }
-                    }
-
-                    Ability ab = new Ability(name, desc, "", skill, prereqs, rank, cat, align);
-
-                    if (ab.IsValid())
-                    {
-                        abilityList.Add(ab);
-                    }
-                }
-
-                foreach (Ability ab in abilityList)
-                {
-                    Program.abilityLibrary.AddAbility(ab);
-                }
-            }
-
-            System.Console.WriteLine("Loaded Ability List");
+            //string curDir = Directory.GetCurrentDirectory() + "\\Lists\\";
+            //
+            //if (!Directory.Exists(curDir))
+            //{
+            //    Directory.CreateDirectory(curDir);
+            //    Console.WriteLine("Error! List Folder could not be found! Made directory at " + curDir);
+            //    return;
+            //}
+            //
+            //string JsonString = System.IO.File.ReadAllText(curDir + "AbilityLibrary.txt");
+            //
+            //using (JsonDocument document = JsonDocument.Parse(JsonString))
+            //{
+            //    List<Ability> abilityList = new List<Ability>();
+            //
+            //    JsonElement root = document.RootElement;
+            //    foreach (JsonElement ability in root.EnumerateArray())
+            //    {
+            //        string name = "";
+            //        string desc = "";
+            //        CharacterRank rank = CharacterRank.NoRank;
+            //        CharacterAlignment align = CharacterAlignment.None;
+            //        AbilityCategory cat = AbilityCategory.NoCategory;
+            //        int skill = 0;
+            //        List<string> prereqs = new List<string>();
+            //
+            //        if (ability.TryGetProperty("Name", out JsonElement nameElement))
+            //        {
+            //            name = nameElement.GetString();
+            //        }
+            //        if (ability.TryGetProperty("rank", out JsonElement rankElement))
+            //        {
+            //            rank = (CharacterRank)rankElement.GetInt32();
+            //        }
+            //        if (ability.TryGetProperty("Description", out JsonElement descElement))
+            //        {
+            //            desc = descElement.GetString();
+            //        }
+            //        if (ability.TryGetProperty("alignment", out JsonElement alignElement))
+            //        {
+            //            align = (CharacterAlignment)alignElement.GetInt32();
+            //        }
+            //        if (ability.TryGetProperty("skillCost", out JsonElement skillElement))
+            //        {
+            //            skill = skillElement.GetInt32();
+            //        }
+            //        if (ability.TryGetProperty("category", out JsonElement categElement))
+            //        {
+            //            cat = (AbilityCategory)categElement.GetInt32();
+            //        }
+            //        if (ability.TryGetProperty("Prereqs", out JsonElement prereqsElement))
+            //        {
+            //            foreach (var abilityElem in prereqsElement.EnumerateArray())
+            //            {
+            //                if (abilityElem.TryGetProperty("Name", out JsonElement prereqName))
+            //                    prereqs.Add(prereqName.GetString());
+            //            }
+            //        }
+            //
+            //        Ability ab = new Ability(name, desc, "", skill, prereqs, rank, cat, align);
+            //
+            //        if (ab.IsValid())
+            //        {
+            //            abilityList.Add(ab);
+            //        }
+            //    }
+            //
+            //    foreach (Ability ab in abilityList)
+            //    {
+            //        Program.abilityLibrary.AddAbility(ab);
+            //    }
+            //}
+            //
+            //System.Console.WriteLine("Loaded Ability List");
         }
 
-        static public List<CharacterSheet> ImportCharacterSheetsFromDisk()
-        {
-            List<CharacterSheet> importedSheets = new List<CharacterSheet>();
-
-            string curDir = Directory.GetCurrentDirectory();
-
-            if (!Directory.Exists($"{curDir}\\CharacterSheets"))
-            {
-                Directory.CreateDirectory($"{curDir}\\CharacterSheets");
-                return importedSheets;
-            }
-
-            // start with all txts
-            DirectoryInfo directoryInfo = new DirectoryInfo(curDir + "\\CharacterSheets\\");
-            FileInfo[] files = directoryInfo.GetFiles("*.txt");
-
-            foreach (FileInfo file in files)
-            {
-                string jsonString = File.ReadAllText(file.FullName);
-
-                using (JsonDocument document = JsonDocument.Parse(jsonString))
-                {
-                    JsonElement root = document.RootElement;
-
-                    string charName = "";
-                    string charDesc = "";
-                    string charAuth = "";
-                    CharacterRank charRank = CharacterRank.NoRank;
-                    CharacterAlignment charAlignment = CharacterAlignment.None;
-                    List<string> abilities = new List<string>();
-
-                    if (root.TryGetProperty("Name", out JsonElement nameElement))
-                    {
-                        charName = nameElement.GetString();
-                    }
-                    if (root.TryGetProperty("rank", out JsonElement rankElement))
-                    {
-                        charRank = (CharacterRank)rankElement.GetInt32();
-                    }
-                    if (root.TryGetProperty("alignment", out JsonElement alignElement))
-                    {
-                        charAlignment = (CharacterAlignment)alignElement.GetInt32();
-                    }
-                    if (root.TryGetProperty("characterDescription", out JsonElement descElement))
-                    {
-                        charDesc = descElement.GetString();
-                    }
-                    if (root.TryGetProperty("Abilities", out JsonElement prereqsElement))
-                    {
-                        foreach (var abilityElem in prereqsElement.EnumerateArray())
-                        {
-                            abilities.Add(abilityElem.GetString());
-                        }
-                    }
-                    if (root.TryGetProperty("Author", out JsonElement authorElement))
-                    {
-                        charAuth = authorElement.GetString();
-                    }
-
-                    CharacterSheet characterSheet = new CharacterSheet(charName, charRank, charAlignment, abilities, charAuth);
-                    characterSheet.characterDescription = charDesc;
-
-                    if (characterSheet.IsValid())
-                    {
-                        importedSheets.Add(characterSheet);
-                    }
-                }
-            }
-
-            return importedSheets;
-        }
+        //static public List<CharacterSheet> ImportCharacterSheetsFromDisk()
+        //{
+        //    List<CharacterSheet> importedSheets = new List<CharacterSheet>();
+        //
+        //    string curDir = Directory.GetCurrentDirectory();
+        //
+        //    if (!Directory.Exists($"{curDir}\\CharacterSheets"))
+        //    {
+        //        Directory.CreateDirectory($"{curDir}\\CharacterSheets");
+        //        return importedSheets;
+        //    }
+        //
+        //    // start with all txts
+        //    DirectoryInfo directoryInfo = new DirectoryInfo(curDir + "\\CharacterSheets\\");
+        //    FileInfo[] files = directoryInfo.GetFiles("*.txt");
+        //
+        //    foreach (FileInfo file in files)
+        //    {
+        //        string jsonString = File.ReadAllText(file.FullName);
+        //
+        //        using (JsonDocument document = JsonDocument.Parse(jsonString))
+        //        {
+        //            JsonElement root = document.RootElement;
+        //
+        //            string charName = "";
+        //            string charDesc = "";
+        //            string charAuth = "";
+        //            Rank charRank = Rank.Invalid;
+        //            Ability_Alignment charAlignment = Ability_Alignment.Ability_Invalid;
+        //            List<string> abilities = new List<string>();
+        //
+        //            if (root.TryGetProperty("Name", out JsonElement nameElement))
+        //            {
+        //                charName = nameElement.GetString();
+        //            }
+        //            if (root.TryGetProperty("rank", out JsonElement rankElement))
+        //            {
+        //                charRank = (Rank)rankElement.GetInt32();
+        //            }
+        //            if (root.TryGetProperty("alignment", out JsonElement alignElement))
+        //            {
+        //                charAlignment = (Ability_Alignment)alignElement.GetInt32();
+        //            }
+        //            if (root.TryGetProperty("characterDescription", out JsonElement descElement))
+        //            {
+        //                charDesc = descElement.GetString();
+        //            }
+        //            if (root.TryGetProperty("Abilities", out JsonElement prereqsElement))
+        //            {
+        //                foreach (var abilityElem in prereqsElement.EnumerateArray())
+        //                {
+        //                    abilities.Add(abilityElem.GetString());
+        //                }
+        //            }
+        //            if (root.TryGetProperty("Author", out JsonElement authorElement))
+        //            {
+        //                charAuth = authorElement.GetString();
+        //            }
+        //
+        //            CharacterSheet characterSheet = new CharacterSheet(charName, charRank, charAlignment, abilities, charAuth);
+        //            characterSheet.characterDescription = charDesc;
+        //
+        //            if (characterSheet.IsValid())
+        //            {
+        //                importedSheets.Add(characterSheet);
+        //            }
+        //        }
+        //    }
+        //
+        //    return importedSheets;
+        //}
 
 
         /***********************************************************************************************

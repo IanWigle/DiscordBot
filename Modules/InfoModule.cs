@@ -84,12 +84,58 @@ namespace SynovianEmpireDiscordBot.Modules
                 for (int i = 0; i < numTimes; i++)
                 {
                     await user.SendMessageAsync(BotHelpers.CondenseStringArray(message));
-                    await Task.Delay(500);
+                    await Task.Delay(1000).ContinueWith(x => Log($"Message {i + 1} to {username} sent."));
                 }
             }
 
             await ReplyAsync("☢️ The nukes have been launched towards " + username + ", god help us all. ☢️");
             return;
+        }
+
+        [Command("GodSpam")]
+        [Summary("Display message, delete after :)")]
+        [Alias("gs")]
+        public async Task GodSpam(IGuildUser username, int numTimes, string message)
+        {
+            if (BotInfo.UsewhiteList && !BotInfo.Permissions.IsUserInWhiteList(Context.User.ToString()))
+            {
+                if (BotInfo.UseblackListCaughtUsers && !BotInfo.Permissions.IsUserInBlackList(Context.User.ToString()))
+                {
+                    await Log("The user " + Context.User.ToString() + " attempted to use the command GodSpam", LogSeverity.Critical);
+                    await ReplyAsync("You need to be on the whitelist!");
+                    BotInfo.Permissions.AddUserToBlacklist(Context.User.ToString());
+                    return;
+                }
+            }
+
+            // Max override.
+            if (numTimes > 50) numTimes = 50;
+
+            
+            var users = Context.Guild.Users;
+            Discord.WebSocket.SocketGuildUser selectedUser = null;
+            bool nameValid = false;
+            foreach(var user in users)
+            {
+                if(user.ToString() == username.ToString())
+                {
+                    nameValid = true;
+                    selectedUser = user;
+                    break;
+                }
+            }
+
+            if (!nameValid) return;
+
+            IEnumerable<IMessage> messages = await Context.Channel.GetMessagesAsync(1).FlattenAsync();
+            ((ITextChannel)Context.Channel).DeleteMessagesAsync(messages).Wait();
+
+            for (int i = 0; i < numTimes; i++)
+            {
+                IUserMessage m = await ReplyAsync($"{selectedUser.Mention} {message}");
+                Task.Delay(1000).Wait();
+                m.DeleteAsync().Wait();
+            }
         }
 
         [Command("Trello")]

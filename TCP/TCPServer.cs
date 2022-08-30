@@ -10,7 +10,7 @@ using System.Collections;
 using System.Text.Json;
 using System.IO;
 
-using SynovianEmpireDiscordBot.CharacterMakerClasses;
+//using SynovianEmpireDiscordBot.CharacterMakerClasses;
 
 namespace SynovianEmpireDiscordBot.TCP
 {
@@ -102,8 +102,8 @@ namespace SynovianEmpireDiscordBot.TCP
 
                         string CharacterName = "";
                         string characterDescription = "";                        
-                        CharacterRank characterRank = CharacterRank.NoRank;
-                        CharacterAlignment characterAlignment = CharacterAlignment.None;
+                        //CharacterRank characterRank = CharacterRank.NoRank;
+                       // CharacterAlignment characterAlignment = CharacterAlignment.None;
                         List<string> abilities = new List<string>();
 
                         if(root.TryGetProperty("characterSheet", out JsonElement characterElement))
@@ -114,11 +114,11 @@ namespace SynovianEmpireDiscordBot.TCP
                             }
                             if(characterElement.TryGetProperty("rank", out JsonElement rankElement))
                             {
-                                characterRank = (CharacterRank)rankElement.GetInt32();
+                                //characterRank = (CharacterRank)rankElement.GetInt32();
                             }
                             if(characterElement.TryGetProperty("alignment", out JsonElement alignElement))
                             {
-                                characterAlignment = (CharacterAlignment)alignElement.GetInt32()+1;
+                                //characterAlignment = (CharacterAlignment)alignElement.GetInt32()+1;
                             }
                             if(characterElement.TryGetProperty("characterDescription", out JsonElement descElement))
                             {
@@ -133,10 +133,10 @@ namespace SynovianEmpireDiscordBot.TCP
                             }
                         }
 
-                        CharacterSheet characterSheet = new CharacterSheet(CharacterName, characterRank, characterAlignment, abilities, Date, Author);
-                        characterSheet.characterDescription = characterDescription;
+                        //CharacterSheet characterSheet = new CharacterSheet(CharacterName, characterRank, characterAlignment, abilities, Date, Author);
+                        //characterSheet.characterDescription = characterDescription;
 
-                        Program.characterLibrary.AddCharacter(characterSheet, overrideExisting,true);
+                        //Program.characterLibrary.AddCharacter(characterSheet, overrideExisting,true);
                         Console.WriteLine($"New character sheet added to the bots library.");
                     }
 

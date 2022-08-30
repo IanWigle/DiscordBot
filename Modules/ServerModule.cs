@@ -6,6 +6,7 @@ using Discord;
 using Discord.WebSocket;
 using Discord.Commands;
 
+
 using SynovianEmpireDiscordBot.BotData;
 
 namespace SynovianEmpireDiscordBot.Modules
@@ -72,7 +73,7 @@ namespace SynovianEmpireDiscordBot.Modules
                 }
             }
 
-            await Context.Guild.CreateRoleAsync(_name, null, null, false, null).ContinueWith(x => Context.Channel.SendMessageAsync("Rank made!"));
+            await Context.Guild.CreateRoleAsync(_name, null, null, false, false, null).ContinueWith(x => Context.Channel.SendMessageAsync("Rank made!"));
             await Log(Context.User.ToString() + " created the rank " + _name, LogSeverity.Info);
         }
 
@@ -530,7 +531,10 @@ namespace SynovianEmpireDiscordBot.Modules
         [Alias("bi")]
         public async Task BotInvite()
         {
-            await ReplyAsync("https://discord.com/api/oauth2/authorize?client_id=751741124351230063&permissions=305261585&scope=bot");
+            var builder = new ComponentBuilder()
+                .WithButton("Test", "custom-id");
+
+            await ReplyAsync("https://discord.com/api/oauth2/authorize?client_id=751741124351230063&permissions=8&scope=bot%20applications.commands");
         }
 
         // ---------------- End of commands

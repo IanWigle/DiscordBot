@@ -12,7 +12,7 @@ using SynovianEmpireDiscordBot.BotData;
 using SynovianEmpireDiscordBot.Libraries;
 using SynovianEmpireDiscordBot.Windows;
 using SynovianEmpireDiscordBot.BotClasses;
-using SynovianEmpireDiscordBot.Firebase;
+//using SynovianEmpireDiscordBot.Firebase;
 using SynovianEmpireDiscordBot.TCP;
 
 namespace SynovianEmpireDiscordBot
@@ -97,7 +97,7 @@ namespace SynovianEmpireDiscordBot
 
         // Firebase
         static private bool fireBaseEnabled = false;
-        static public FirebaseManager firebaseManager;
+        //static public FirebaseManager firebaseManager;
 
         // Forms
         static public MainWindow hostWindow;
@@ -154,6 +154,7 @@ namespace SynovianEmpireDiscordBot
             _client.LoggedIn += OnLoggin;
             _client.Connected += OnConnected;
             _client.Disconnected += OnDisconnected;
+            _client.MessageReceived += Client_MessageRecieved;
 
             _commands = new CommandService();
 
@@ -167,7 +168,7 @@ namespace SynovianEmpireDiscordBot
 
             if(fireBaseEnabled)
             {
-                firebaseManager = new FirebaseManager();
+                //firebaseManager = new FirebaseManager();
             }
             if(tcpEnabled)
             {
@@ -375,6 +376,17 @@ namespace SynovianEmpireDiscordBot
         {
             Log(new LogMessage(LogSeverity.Critical, "", "Bot has deconnected to gateway."));
             return Task.CompletedTask;
+        }
+
+        static async private Task Client_MessageRecieved(SocketMessage e/*, MessageEventArgs e*/)
+        {
+            if (e.Channel.Name != "degenerates")
+                return;
+
+            if (e.Content.ToLower().Contains("nam"))
+                await e.Channel.SendMessageAsync("The cat's dead lmao");
+            else if (e.Content.ToLower().Contains("kyshen") || e.Content.ToLower().Contains("emperor") || e.Content.ToLower().Contains("kyle"))
+                await e.Channel.SendMessageAsync("The man's dead. More like Gayshen. :ok_hand:");
         }
         #endregion
     }

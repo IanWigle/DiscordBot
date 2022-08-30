@@ -151,10 +151,10 @@ namespace SynovianEmpireDiscordBot.Windows
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if(Program.IsFirebaseEnabled())
-            {
-                Program.firebaseManager.TestData();
-            }
+            //if(Program.IsFirebaseEnabled())
+            //{
+            //    Program.firebaseManager.TestData();
+            //}
         }
 
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)

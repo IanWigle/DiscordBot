@@ -5,8 +5,7 @@ using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 
-using SynovianEmpireDiscordBot.Libraries;
-using SynovianEmpireDiscordBot.CharacterMakerClasses;
+using SynovianEmpireDiscordBot.Libraries;   
 
 namespace SynovianEmpireDiscordBot.BotData
 {
@@ -125,110 +124,110 @@ namespace SynovianEmpireDiscordBot.BotData
          * HISTORY:                                                                                    *
          *    2020-09-25 11:03AM EST : Created                                                         *
          *=============================================================================================*/
-        static public void ExportAbilityLibrary()
-        {
-            string curDir = Directory.GetCurrentDirectory() + "\\Lists\\";
+        //static public void ExportAbilityLibrary()
+        //{
+        //    string curDir = Directory.GetCurrentDirectory() + "\\Lists\\";
+        //
+        //    if (!Directory.Exists(curDir))
+        //    {
+        //        Directory.CreateDirectory(curDir);
+        //        Console.WriteLine("Error! List Folder could not be found!");
+        //    }
+        //
+        //    var options = new JsonSerializerOptions
+        //    {
+        //        WriteIndented = true,
+        //    };
+        //
+        //    string jsonString = JsonSerializer.Serialize(Program.abilityLibrary.GetAbilityList(), options);
+        //    System.IO.File.WriteAllText(curDir + "AbilityLibrary.txt", jsonString);
+        //    System.Console.WriteLine("Ability Library exported to " + curDir + "AbilityLibrary.txt");
+        //}
 
-            if (!Directory.Exists(curDir))
-            {
-                Directory.CreateDirectory(curDir);
-                Console.WriteLine("Error! List Folder could not be found!");
-            }
-
-            var options = new JsonSerializerOptions
-            {
-                WriteIndented = true,
-            };
-
-            string jsonString = JsonSerializer.Serialize(Program.abilityLibrary.GetAbilityList(), options);
-            System.IO.File.WriteAllText(curDir + "AbilityLibrary.txt", jsonString);
-            System.Console.WriteLine("Ability Library exported to " + curDir + "AbilityLibrary.txt");
-        }
-
-        static public void ExportCharacterSheet(CharacterSheet sheet, bool overriteExisting = true)
-        {
-            const bool removeInvalidCharacters = true;
-
-            bool characterNameValid = (
-                    sheet.Name != "" &&
-                        (
-                            !sheet.Name.Contains('<') &&
-                            !sheet.Name.Contains('>') &&
-                            !sheet.Name.Contains(':') &&
-                            !sheet.Name.Contains('\"') &&
-                            !sheet.Name.Contains('/') &&
-                            !sheet.Name.Contains('\\') &&
-                            !sheet.Name.Contains('|') &&
-                            !sheet.Name.Contains('?') &&
-                            !sheet.Name.Contains('*')
-                        )
-                    );
-
-            void SaveSheet(CharacterSheet character)
-            {
-                string curDir = Directory.GetCurrentDirectory();
-                string fullFilename = $"{curDir}\\CharacterSheets\\{character.Name}.txt";
-
-                if (!Directory.Exists($"{curDir}\\CharacterSheets"))
-                    Directory.CreateDirectory($"{curDir}\\CharacterSheets");
-
-                if (File.Exists(fullFilename) && overriteExisting)
-                {
-                    File.Delete(fullFilename);
-
-                    var options = new JsonSerializerOptions
-                    {
-                        WriteIndented = true,
-                    };
-
-                    string jsonString = JsonSerializer.Serialize(character, options);
-                    System.IO.File.WriteAllText(fullFilename, jsonString);
-                }
-                else
-                {
-                    var options = new JsonSerializerOptions
-                    {
-                        WriteIndented = true,
-                    };
-
-                    string jsonString = JsonSerializer.Serialize(character, options);
-                    System.IO.File.WriteAllText($"{curDir}\\CharacterSheets\\{character.Name}.txt", jsonString);
-                }
-            }
-
-
-            if (characterNameValid)
-            {
-                SaveSheet(sheet);
-            }
-            else if (characterNameValid == false && removeInvalidCharacters)
-            {
-                string invalid = new string(Path.GetInvalidFileNameChars()) + new string(Path.GetInvalidPathChars());
-                string invalidName = sheet.Name;
-
-                foreach (char c in invalid)
-                {
-                    invalidName = invalidName.Replace(c.ToString(), "");
-                }
-
-                if (invalidName == "")
-                {
-                    DirectoryInfo directoryInfo = new DirectoryInfo($"{Directory.GetCurrentDirectory()}\\CharacterSheets\\");
-                    FileInfo[] files = directoryInfo.GetFiles("*.txt");
-                    invalidName = $"CharacterSheet{files.Length + 1}";
-                }
-
-                CharacterSheet characterSheet = new CharacterSheet(invalidName, sheet);
-                SaveSheet(characterSheet);
-            }
-        }
-
-        static public void ExportCharacterList(List<CharacterSheet> sheets, bool overriteExisting = false)
-        {
-            foreach (CharacterSheet sheet in sheets)
-            {
-                ExportCharacterSheet(sheet, overriteExisting);
-            }
-        }
+        //static public void ExportCharacterSheet(CharacterSheet sheet, bool overriteExisting = true)
+        //{
+        //    const bool removeInvalidCharacters = true;
+        //
+        //    bool characterNameValid = (
+        //            sheet.Name != "" &&
+        //                (
+        //                    !sheet.Name.Contains('<') &&
+        //                    !sheet.Name.Contains('>') &&
+        //                    !sheet.Name.Contains(':') &&
+        //                    !sheet.Name.Contains('\"') &&
+        //                    !sheet.Name.Contains('/') &&
+        //                    !sheet.Name.Contains('\\') &&
+        //                    !sheet.Name.Contains('|') &&
+        //                    !sheet.Name.Contains('?') &&
+        //                    !sheet.Name.Contains('*')
+        //                )
+        //            );
+        //
+        //    void SaveSheet(CharacterSheet character)
+        //    {
+        //        string curDir = Directory.GetCurrentDirectory();
+        //        string fullFilename = $"{curDir}\\CharacterSheets\\{character.Name}.txt";
+        //
+        //        if (!Directory.Exists($"{curDir}\\CharacterSheets"))
+        //            Directory.CreateDirectory($"{curDir}\\CharacterSheets");
+        //
+        //        if (File.Exists(fullFilename) && overriteExisting)
+        //        {
+        //            File.Delete(fullFilename);
+        //
+        //            var options = new JsonSerializerOptions
+        //            {
+        //                WriteIndented = true,
+        //            };
+        //
+        //            string jsonString = JsonSerializer.Serialize(character, options);
+        //            System.IO.File.WriteAllText(fullFilename, jsonString);
+        //        }
+        //        else
+        //        {
+        //            var options = new JsonSerializerOptions
+        //            {
+        //                WriteIndented = true,
+        //            };
+        //
+        //            string jsonString = JsonSerializer.Serialize(character, options);
+        //            System.IO.File.WriteAllText($"{curDir}\\CharacterSheets\\{character.Name}.txt", jsonString);
+        //        }
+        //    }
+        //
+        //
+        //    if (characterNameValid)
+        //    {
+        //        SaveSheet(sheet);
+        //    }
+        //    else if (characterNameValid == false && removeInvalidCharacters)
+        //    {
+        //        string invalid = new string(Path.GetInvalidFileNameChars()) + new string(Path.GetInvalidPathChars());
+        //        string invalidName = sheet.Name;
+        //
+        //        foreach (char c in invalid)
+        //        {
+        //            invalidName = invalidName.Replace(c.ToString(), "");
+        //        }
+        //
+        //        if (invalidName == "")
+        //        {
+        //            DirectoryInfo directoryInfo = new DirectoryInfo($"{Directory.GetCurrentDirectory()}\\CharacterSheets\\");
+        //            FileInfo[] files = directoryInfo.GetFiles("*.txt");
+        //            invalidName = $"CharacterSheet{files.Length + 1}";
+        //        }
+        //
+        //        CharacterSheet characterSheet = new CharacterSheet(invalidName, sheet);
+        //        SaveSheet(characterSheet);
+        //    }
+        //}
+        //
+        //static public void ExportCharacterList(List<CharacterSheet> sheets, bool overriteExisting = false)
+        //{
+        //    foreach (CharacterSheet sheet in sheets)
+        //    {
+        //        ExportCharacterSheet(sheet, overriteExisting);
+        //    }
+        //}
     }
 }
